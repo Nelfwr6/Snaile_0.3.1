@@ -1,0 +1,110 @@
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2022.10.25
+;fsymbol = .constf, .text, .textf, .bss, .sbss, .data, .sdata, .RLIB, .SLIB
+
+;SECTION NAME = .constf
+;SECTION NAME = .text
+;SECTION NAME = .textf
+ .public _main
+_main .equ 0x00000272
+ .public _R_MAIN_UserInit
+_R_MAIN_UserInit .equ 0x00000463
+ .public _ErrorHandler
+_ErrorHandler .equ 0x00000467
+ .public _R_Systeminit
+_R_Systeminit .equ 0x000004d4
+ .public _hdwinit_boot
+_hdwinit_boot .equ 0x000004f0
+ .public _R_CGC_Create
+_R_CGC_Create .equ 0x000004f7
+ .public _R_CGC_Get_ResetSource
+_R_CGC_Get_ResetSource .equ 0x00000539
+ .public _R_PORT_Create
+_R_PORT_Create .equ 0x00000540
+ .public _R_SAU0_Create
+_R_SAU0_Create .equ 0x00000559
+ .public _R_UART1_Create
+_R_UART1_Create .equ 0x0000056a
+ .public _R_UART1_Start
+_R_UART1_Start .equ 0x00000603
+ .public _R_UART1_Stop
+_R_UART1_Stop .equ 0x00000631
+ .public _R_UART1_Receive
+_R_UART1_Receive .equ 0x00000656
+ .public _R_UART1_Send
+_R_UART1_Send .equ 0x00000682
+ .public _R_UART1_Send_Byte
+_R_UART1_Send_Byte .equ 0x000006bc
+ .public _R_UART1_Send_String
+_R_UART1_Send_String .equ 0x000006ff
+ .public _R_UART1_ReceiveStart
+_R_UART1_ReceiveStart .equ 0x0000073a
+ .public _R_UART1_SendStart
+_R_UART1_SendStart .equ 0x000007fc
+ .public _R_TAU0_Create
+_R_TAU0_Create .equ 0x0000083c
+ .public _R_TAU0_Channel0_Start
+_R_TAU0_Channel0_Start .equ 0x000008a2
+ .public _R_TAU0_Channel0_Stop
+_R_TAU0_Channel0_Stop .equ 0x000008ac
+ .public _delay
+_delay .equ 0x000008b6
+ .public _WriteFlash
+_WriteFlash .equ 0x000008ef
+ .public _GetByte
+_GetByte .equ 0x0000091e
+ .public _v_delay_ms
+_v_delay_ms .equ 0x000009a5
+ .public _convert
+_convert .equ 0x000009ee
+ .public _u8_Gsm_Wait_For_AT_response
+_u8_Gsm_Wait_For_AT_response .equ 0x00000afc
+ .public _u8_File_Open
+_u8_File_Open .equ 0x00000b97
+ .public _u8_File_Close
+_u8_File_Close .equ 0x00000c08
+ .public _u8_File_Erase
+_u8_File_Erase .equ 0x00000c76
+ .public _u8_Read_from_UFS
+_u8_Read_from_UFS .equ 0x00000cf0
+ .public _GSM_Initial_Configuration
+_GSM_Initial_Configuration .equ 0x0000150b
+ .public _v_Gsm_Hardware_Init
+_v_Gsm_Hardware_Init .equ 0x00001516
+ .public _v_Gsm_Power_Down
+_v_Gsm_Power_Down .equ 0x00001535
+ .public _ATResponse_Handler
+_ATResponse_Handler .equ 0x00001552
+ .public _powerof
+_powerof .equ 0x0000170a
+;SECTION NAME = .bss
+ .public _gp_uart1_tx_address
+_gp_uart1_tx_address .equ 0x000ff0e0
+ .public _g_uart1_tx_count
+_g_uart1_tx_count .equ 0x000ff0e2
+ .public _gp_uart1_rx_address
+_gp_uart1_rx_address .equ 0x000ff0e4
+ .public _g_uart1_rx_count
+_g_uart1_rx_count .equ 0x000ff0e6
+ .public _g_uart1_rx_length
+_g_uart1_rx_length .equ 0x000ff0e8
+;SECTION NAME = .sbss
+;SECTION NAME = .data
+;SECTION NAME = .sdata
+;SECTION NAME = .RLIB
+ .public _memset
+_memset .equ 0x00000173
+ .public __COM_imul
+__COM_imul .equ 0x00000181
+ .public __COM_lmul
+__COM_lmul .equ 0x00000190
+ .public __COM_memcpy_ff
+__COM_memcpy_ff .equ 0x000001b8
+ .public __COM_memset_f
+__COM_memset_f .equ 0x000001d9
+ .public __COM_uldiv
+__COM_uldiv .equ 0x000001f3
+;SECTION NAME = .SLIB
+ .public __COM_strlen_f
+__COM_strlen_f .equ 0x0000022a
+ .public __COM_strstr_ff
+__COM_strstr_ff .equ 0x00000238

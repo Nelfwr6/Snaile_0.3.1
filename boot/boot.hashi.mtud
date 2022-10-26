@@ -1,0 +1,637 @@
+﻿<CubeSuiteProject.User>
+  <Class Guid="59b8e2b7-61d0-47b3-8ba8-4094e2588491">
+    <Instance Guid="a30e3860-379f-401e-950c-b6fcb80d6a09">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F100FJ</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+    <Instance Guid="754eca4d-0f70-4c47-97d1-5dfcddd4123d">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F100FJ</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+    <Instance Guid="9feb165e-fbd4-4ce4-90a9-a2dbba0d90e0">
+      <EventFunction-Timer1-Name>UgB1AG4ALQBCAHIAZQBhAGsAIABUAGkAbQBlAHIA</EventFunction-Timer1-Name>
+      <EventFunction-Timer1-Description />
+      <EventFunction-Timer1-EventStatus>Enable</EventFunction-Timer1-EventStatus>
+      <EventFunction-Timer1-EventStatusBeforeInvalid>Invalid</EventFunction-Timer1-EventStatusBeforeInvalid>
+      <EventFunction-Timer1-IsBuiltIn>True</EventFunction-Timer1-IsBuiltIn>
+      <EventFunction-Timer1-CountLimit>0</EventFunction-Timer1-CountLimit>
+      <EventFunction-Timer1-TimerLimit>0</EventFunction-Timer1-TimerLimit>
+      <EventFunction-Timer1-ChannelNumber>0</EventFunction-Timer1-ChannelNumber>
+      <EventFunction-Timer1-StartTimerEvent-SaveLength>0</EventFunction-Timer1-StartTimerEvent-SaveLength>
+      <EventFunction-Timer1-EndTimerEvent-SaveLength>0</EventFunction-Timer1-EndTimerEvent-SaveLength>
+      <EventFunction-Break1-Name>QgByAGUAYQBrADAAMAAwADEA</EventFunction-Break1-Name>
+      <EventFunction-Break1-Description />
+      <EventFunction-Break1-EventStatus>Enable</EventFunction-Break1-EventStatus>
+      <EventFunction-Break1-EventStatusBeforeInvalid>Invalid</EventFunction-Break1-EventStatusBeforeInvalid>
+      <EventFunction-Break1-IsBuiltIn>False</EventFunction-Break1-IsBuiltIn>
+      <EventFunction-Break1-CombinationType>None</EventFunction-Break1-CombinationType>
+      <EventFunction-Break1-HardwareBreakData-SaveLength>0</EventFunction-Break1-HardwareBreakData-SaveLength>
+      <EventFunction-Break1-SoftwareBreakData-SoftwareBreakNumber1>0</EventFunction-Break1-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break1-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break1-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break1-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAxAA==</EventFunction-Break1-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break1-SoftwareBreakData-SaveLength>1</EventFunction-Break1-SoftwareBreakData-SaveLength>
+      <EventFunction-Break2-Name>QgByAGUAYQBrADAAMAAwADIA</EventFunction-Break2-Name>
+      <EventFunction-Break2-Description />
+      <EventFunction-Break2-EventStatus>Enable</EventFunction-Break2-EventStatus>
+      <EventFunction-Break2-EventStatusBeforeInvalid>Invalid</EventFunction-Break2-EventStatusBeforeInvalid>
+      <EventFunction-Break2-IsBuiltIn>False</EventFunction-Break2-IsBuiltIn>
+      <EventFunction-Break2-CombinationType>None</EventFunction-Break2-CombinationType>
+      <EventFunction-Break2-HardwareBreakData-SaveLength>0</EventFunction-Break2-HardwareBreakData-SaveLength>
+      <EventFunction-Break2-SoftwareBreakData-SoftwareBreakNumber1>1</EventFunction-Break2-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break2-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break2-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break2-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAyAA==</EventFunction-Break2-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break2-SoftwareBreakData-SaveLength>1</EventFunction-Break2-SoftwareBreakData-SaveLength>
+      <EventFunction-EventCondition1-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAxAA==</EventFunction-EventCondition1-Software-Name>
+      <EventFunction-EventCondition1-Software-Description />
+      <EventFunction-EventCondition1-Software-IsBuiltIn>False</EventFunction-EventCondition1-Software-IsBuiltIn>
+      <EventFunction-EventCondition1-Software-EventConditionType>Software</EventFunction-EventCondition1-Software-EventConditionType>
+      <EventFunction-EventCondition1-Software-EventNumber>0</EventFunction-EventCondition1-Software-EventNumber>
+      <EventFunction-EventCondition1-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition1-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition1-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition1-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition1-Software-BreakAddress-File>r_main.c</EventFunction-EventCondition1-Software-BreakAddress-File>
+      <EventFunction-EventCondition1-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\</EventFunction-EventCondition1-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition1-Software-BreakAddress-Symbol>_main</EventFunction-EventCondition1-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition1-Software-BreakAddress-Offset>55</EventFunction-EventCondition1-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition1-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition1-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition1-Software-EffectiveBreakAddress-Address>426</EventFunction-EventCondition1-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition1-Software-ProcessorElementNumber>1</EventFunction-EventCondition1-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition1-Software-IsUseEventInformation>False</EventFunction-EventCondition1-Software-IsUseEventInformation>
+      <EventFunction-EventCondition2-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAyAA==</EventFunction-EventCondition2-Software-Name>
+      <EventFunction-EventCondition2-Software-Description />
+      <EventFunction-EventCondition2-Software-IsBuiltIn>False</EventFunction-EventCondition2-Software-IsBuiltIn>
+      <EventFunction-EventCondition2-Software-EventConditionType>Software</EventFunction-EventCondition2-Software-EventConditionType>
+      <EventFunction-EventCondition2-Software-EventNumber>1</EventFunction-EventCondition2-Software-EventNumber>
+      <EventFunction-EventCondition2-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition2-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition2-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition2-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition2-Software-BreakAddress-File>r_main.c</EventFunction-EventCondition2-Software-BreakAddress-File>
+      <EventFunction-EventCondition2-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\</EventFunction-EventCondition2-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition2-Software-BreakAddress-Symbol>_main</EventFunction-EventCondition2-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition2-Software-BreakAddress-Offset>439</EventFunction-EventCondition2-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition2-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition2-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition2-Software-EffectiveBreakAddress-Address>810</EventFunction-EventCondition2-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition2-Software-ProcessorElementNumber>1</EventFunction-EventCondition2-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition2-Software-IsUseEventInformation>False</EventFunction-EventCondition2-Software-IsUseEventInformation>
+      <EventFunction-SaveEventConditionItemHardwareNumber>0</EventFunction-SaveEventConditionItemHardwareNumber>
+      <EventFunction-SaveEventConditionItemSoftwareNumber>2</EventFunction-SaveEventConditionItemSoftwareNumber>
+      <EventFunction-SaveActionEventNumber>0</EventFunction-SaveActionEventNumber>
+      <EventFunction-SaveBreakNumber>2</EventFunction-SaveBreakNumber>
+      <EventFunction-SaveTimerNumber>1</EventFunction-SaveTimerNumber>
+      <EventFunction-SavePerformanceNumber>0</EventFunction-SavePerformanceNumber>
+      <EventFunction-SaveTraceNumber>0</EventFunction-SaveTraceNumber>
+      <EventFunction-SaveNumberOfProcessorElement>1</EventFunction-SaveNumberOfProcessorElement>
+      <EventFunction-SaveNumberOfTimerChannel>0</EventFunction-SaveNumberOfTimerChannel>
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F100FJ</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+  </Class>
+  <Class Guid="e4df8d71-236e-4af2-aaea-56345a08da25">
+    <Instance Guid="a30e3860-379f-401e-950c-b6fcb80d6a09">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F100FJ</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+    <Instance Guid="754eca4d-0f70-4c47-97d1-5dfcddd4123d">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F100FJ</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+    <Instance Guid="9feb165e-fbd4-4ce4-90a9-a2dbba0d90e0">
+      <EventFunction-Timer1-Name>UgB1AG4ALQBCAHIAZQBhAGsAIABUAGkAbQBlAHIA</EventFunction-Timer1-Name>
+      <EventFunction-Timer1-Description />
+      <EventFunction-Timer1-EventStatus>Enable</EventFunction-Timer1-EventStatus>
+      <EventFunction-Timer1-EventStatusBeforeInvalid>Invalid</EventFunction-Timer1-EventStatusBeforeInvalid>
+      <EventFunction-Timer1-IsBuiltIn>True</EventFunction-Timer1-IsBuiltIn>
+      <EventFunction-Timer1-CountLimit>0</EventFunction-Timer1-CountLimit>
+      <EventFunction-Timer1-TimerLimit>0</EventFunction-Timer1-TimerLimit>
+      <EventFunction-Timer1-ChannelNumber>0</EventFunction-Timer1-ChannelNumber>
+      <EventFunction-Timer1-StartTimerEvent-SaveLength>0</EventFunction-Timer1-StartTimerEvent-SaveLength>
+      <EventFunction-Timer1-EndTimerEvent-SaveLength>0</EventFunction-Timer1-EndTimerEvent-SaveLength>
+      <EventFunction-Break1-Name>QgByAGUAYQBrADAAMAAwADEA</EventFunction-Break1-Name>
+      <EventFunction-Break1-Description />
+      <EventFunction-Break1-EventStatus>Enable</EventFunction-Break1-EventStatus>
+      <EventFunction-Break1-EventStatusBeforeInvalid>Invalid</EventFunction-Break1-EventStatusBeforeInvalid>
+      <EventFunction-Break1-IsBuiltIn>False</EventFunction-Break1-IsBuiltIn>
+      <EventFunction-Break1-CombinationType>None</EventFunction-Break1-CombinationType>
+      <EventFunction-Break1-HardwareBreakData-SaveLength>0</EventFunction-Break1-HardwareBreakData-SaveLength>
+      <EventFunction-Break1-SoftwareBreakData-SoftwareBreakNumber1>0</EventFunction-Break1-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break1-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break1-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break1-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAxAA==</EventFunction-Break1-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break1-SoftwareBreakData-SaveLength>1</EventFunction-Break1-SoftwareBreakData-SaveLength>
+      <EventFunction-Break2-Name>QgByAGUAYQBrADAAMAAwADIA</EventFunction-Break2-Name>
+      <EventFunction-Break2-Description />
+      <EventFunction-Break2-EventStatus>Enable</EventFunction-Break2-EventStatus>
+      <EventFunction-Break2-EventStatusBeforeInvalid>Invalid</EventFunction-Break2-EventStatusBeforeInvalid>
+      <EventFunction-Break2-IsBuiltIn>False</EventFunction-Break2-IsBuiltIn>
+      <EventFunction-Break2-CombinationType>None</EventFunction-Break2-CombinationType>
+      <EventFunction-Break2-HardwareBreakData-SaveLength>0</EventFunction-Break2-HardwareBreakData-SaveLength>
+      <EventFunction-Break2-SoftwareBreakData-SoftwareBreakNumber1>1</EventFunction-Break2-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break2-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break2-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break2-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAyAA==</EventFunction-Break2-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break2-SoftwareBreakData-SaveLength>1</EventFunction-Break2-SoftwareBreakData-SaveLength>
+      <EventFunction-Break3-Name>QgByAGUAYQBrADAAMAAwADMA</EventFunction-Break3-Name>
+      <EventFunction-Break3-Description />
+      <EventFunction-Break3-EventStatus>Enable</EventFunction-Break3-EventStatus>
+      <EventFunction-Break3-EventStatusBeforeInvalid>Invalid</EventFunction-Break3-EventStatusBeforeInvalid>
+      <EventFunction-Break3-IsBuiltIn>False</EventFunction-Break3-IsBuiltIn>
+      <EventFunction-Break3-CombinationType>None</EventFunction-Break3-CombinationType>
+      <EventFunction-Break3-HardwareBreakData-SaveLength>0</EventFunction-Break3-HardwareBreakData-SaveLength>
+      <EventFunction-Break3-SoftwareBreakData-SoftwareBreakNumber1>2</EventFunction-Break3-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break3-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break3-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break3-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAzAA==</EventFunction-Break3-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break3-SoftwareBreakData-SaveLength>1</EventFunction-Break3-SoftwareBreakData-SaveLength>
+      <EventFunction-Break4-Name>QgByAGUAYQBrADAAMAAwADQA</EventFunction-Break4-Name>
+      <EventFunction-Break4-Description />
+      <EventFunction-Break4-EventStatus>Enable</EventFunction-Break4-EventStatus>
+      <EventFunction-Break4-EventStatusBeforeInvalid>Invalid</EventFunction-Break4-EventStatusBeforeInvalid>
+      <EventFunction-Break4-IsBuiltIn>False</EventFunction-Break4-IsBuiltIn>
+      <EventFunction-Break4-CombinationType>None</EventFunction-Break4-CombinationType>
+      <EventFunction-Break4-HardwareBreakData-SaveLength>0</EventFunction-Break4-HardwareBreakData-SaveLength>
+      <EventFunction-Break4-SoftwareBreakData-SoftwareBreakNumber1>3</EventFunction-Break4-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break4-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break4-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break4-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA0AA==</EventFunction-Break4-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break4-SoftwareBreakData-SaveLength>1</EventFunction-Break4-SoftwareBreakData-SaveLength>
+      <EventFunction-Break5-Name>QgByAGUAYQBrADAAMAAwADUA</EventFunction-Break5-Name>
+      <EventFunction-Break5-Description />
+      <EventFunction-Break5-EventStatus>Enable</EventFunction-Break5-EventStatus>
+      <EventFunction-Break5-EventStatusBeforeInvalid>Invalid</EventFunction-Break5-EventStatusBeforeInvalid>
+      <EventFunction-Break5-IsBuiltIn>False</EventFunction-Break5-IsBuiltIn>
+      <EventFunction-Break5-CombinationType>None</EventFunction-Break5-CombinationType>
+      <EventFunction-Break5-HardwareBreakData-SaveLength>0</EventFunction-Break5-HardwareBreakData-SaveLength>
+      <EventFunction-Break5-SoftwareBreakData-SoftwareBreakNumber1>4</EventFunction-Break5-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break5-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break5-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break5-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA1AA==</EventFunction-Break5-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break5-SoftwareBreakData-SaveLength>1</EventFunction-Break5-SoftwareBreakData-SaveLength>
+      <EventFunction-Break6-Name>QgByAGUAYQBrADAAMAAwADcA</EventFunction-Break6-Name>
+      <EventFunction-Break6-Description />
+      <EventFunction-Break6-EventStatus>Enable</EventFunction-Break6-EventStatus>
+      <EventFunction-Break6-EventStatusBeforeInvalid>Invalid</EventFunction-Break6-EventStatusBeforeInvalid>
+      <EventFunction-Break6-IsBuiltIn>False</EventFunction-Break6-IsBuiltIn>
+      <EventFunction-Break6-CombinationType>None</EventFunction-Break6-CombinationType>
+      <EventFunction-Break6-HardwareBreakData-SaveLength>0</EventFunction-Break6-HardwareBreakData-SaveLength>
+      <EventFunction-Break6-SoftwareBreakData-SoftwareBreakNumber1>5</EventFunction-Break6-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break6-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break6-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break6-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA3AA==</EventFunction-Break6-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break6-SoftwareBreakData-SaveLength>1</EventFunction-Break6-SoftwareBreakData-SaveLength>
+      <EventFunction-EventCondition1-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAxAA==</EventFunction-EventCondition1-Software-Name>
+      <EventFunction-EventCondition1-Software-Description />
+      <EventFunction-EventCondition1-Software-IsBuiltIn>False</EventFunction-EventCondition1-Software-IsBuiltIn>
+      <EventFunction-EventCondition1-Software-EventConditionType>Software</EventFunction-EventCondition1-Software-EventConditionType>
+      <EventFunction-EventCondition1-Software-EventNumber>0</EventFunction-EventCondition1-Software-EventNumber>
+      <EventFunction-EventCondition1-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition1-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition1-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition1-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition1-Software-BreakAddress-File>gsm_gprs.c</EventFunction-EventCondition1-Software-BreakAddress-File>
+      <EventFunction-EventCondition1-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\source\</EventFunction-EventCondition1-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition1-Software-BreakAddress-Symbol>_v_Gsm_Power_Down</EventFunction-EventCondition1-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition1-Software-BreakAddress-Offset>13</EventFunction-EventCondition1-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition1-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition1-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition1-Software-EffectiveBreakAddress-Address>13572</EventFunction-EventCondition1-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition1-Software-ProcessorElementNumber>1</EventFunction-EventCondition1-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition1-Software-IsUseEventInformation>False</EventFunction-EventCondition1-Software-IsUseEventInformation>
+      <EventFunction-EventCondition2-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAyAA==</EventFunction-EventCondition2-Software-Name>
+      <EventFunction-EventCondition2-Software-Description />
+      <EventFunction-EventCondition2-Software-IsBuiltIn>False</EventFunction-EventCondition2-Software-IsBuiltIn>
+      <EventFunction-EventCondition2-Software-EventConditionType>Software</EventFunction-EventCondition2-Software-EventConditionType>
+      <EventFunction-EventCondition2-Software-EventNumber>1</EventFunction-EventCondition2-Software-EventNumber>
+      <EventFunction-EventCondition2-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition2-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition2-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition2-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition2-Software-BreakAddress-File>gsm_gprs.c</EventFunction-EventCondition2-Software-BreakAddress-File>
+      <EventFunction-EventCondition2-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\source\</EventFunction-EventCondition2-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition2-Software-BreakAddress-Symbol>_u8_Gsm_Wait_For_AT_response</EventFunction-EventCondition2-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition2-Software-BreakAddress-Offset>33</EventFunction-EventCondition2-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition2-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition2-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition2-Software-EffectiveBreakAddress-Address>12617</EventFunction-EventCondition2-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition2-Software-ProcessorElementNumber>1</EventFunction-EventCondition2-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition2-Software-IsUseEventInformation>False</EventFunction-EventCondition2-Software-IsUseEventInformation>
+      <EventFunction-EventCondition3-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAAzAA==</EventFunction-EventCondition3-Software-Name>
+      <EventFunction-EventCondition3-Software-Description />
+      <EventFunction-EventCondition3-Software-IsBuiltIn>False</EventFunction-EventCondition3-Software-IsBuiltIn>
+      <EventFunction-EventCondition3-Software-EventConditionType>Software</EventFunction-EventCondition3-Software-EventConditionType>
+      <EventFunction-EventCondition3-Software-EventNumber>2</EventFunction-EventCondition3-Software-EventNumber>
+      <EventFunction-EventCondition3-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition3-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition3-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition3-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition3-Software-BreakAddress-File>r_main.c</EventFunction-EventCondition3-Software-BreakAddress-File>
+      <EventFunction-EventCondition3-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\</EventFunction-EventCondition3-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition3-Software-BreakAddress-Symbol>_ErrorHandler</EventFunction-EventCondition3-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition3-Software-BreakAddress-Offset>0</EventFunction-EventCondition3-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition3-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition3-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition3-Software-EffectiveBreakAddress-Address>11111</EventFunction-EventCondition3-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition3-Software-ProcessorElementNumber>1</EventFunction-EventCondition3-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition3-Software-IsUseEventInformation>False</EventFunction-EventCondition3-Software-IsUseEventInformation>
+      <EventFunction-EventCondition4-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA0AA==</EventFunction-EventCondition4-Software-Name>
+      <EventFunction-EventCondition4-Software-Description />
+      <EventFunction-EventCondition4-Software-IsBuiltIn>False</EventFunction-EventCondition4-Software-IsBuiltIn>
+      <EventFunction-EventCondition4-Software-EventConditionType>Software</EventFunction-EventCondition4-Software-EventConditionType>
+      <EventFunction-EventCondition4-Software-EventNumber>3</EventFunction-EventCondition4-Software-EventNumber>
+      <EventFunction-EventCondition4-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition4-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition4-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition4-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition4-Software-BreakAddress-File>gsm_gprs.c</EventFunction-EventCondition4-Software-BreakAddress-File>
+      <EventFunction-EventCondition4-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\source\</EventFunction-EventCondition4-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition4-Software-BreakAddress-Symbol>_u8_GSM_GPRS_reception_Handler</EventFunction-EventCondition4-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition4-Software-BreakAddress-Offset>44</EventFunction-EventCondition4-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition4-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition4-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition4-Software-EffectiveBreakAddress-Address>12849</EventFunction-EventCondition4-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition4-Software-ProcessorElementNumber>1</EventFunction-EventCondition4-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition4-Software-IsUseEventInformation>False</EventFunction-EventCondition4-Software-IsUseEventInformation>
+      <EventFunction-EventCondition5-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA1AA==</EventFunction-EventCondition5-Software-Name>
+      <EventFunction-EventCondition5-Software-Description />
+      <EventFunction-EventCondition5-Software-IsBuiltIn>False</EventFunction-EventCondition5-Software-IsBuiltIn>
+      <EventFunction-EventCondition5-Software-EventConditionType>Software</EventFunction-EventCondition5-Software-EventConditionType>
+      <EventFunction-EventCondition5-Software-EventNumber>4</EventFunction-EventCondition5-Software-EventNumber>
+      <EventFunction-EventCondition5-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition5-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition5-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition5-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition5-Software-BreakAddress-File>gsm_gprs.c</EventFunction-EventCondition5-Software-BreakAddress-File>
+      <EventFunction-EventCondition5-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\source\</EventFunction-EventCondition5-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition5-Software-BreakAddress-Symbol>_u8_Gsm_Wait_For_AT_response</EventFunction-EventCondition5-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition5-Software-BreakAddress-Offset>12</EventFunction-EventCondition5-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition5-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition5-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition5-Software-EffectiveBreakAddress-Address>12596</EventFunction-EventCondition5-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition5-Software-ProcessorElementNumber>1</EventFunction-EventCondition5-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition5-Software-IsUseEventInformation>False</EventFunction-EventCondition5-Software-IsUseEventInformation>
+      <EventFunction-EventCondition6-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA3AA==</EventFunction-EventCondition6-Software-Name>
+      <EventFunction-EventCondition6-Software-Description />
+      <EventFunction-EventCondition6-Software-IsBuiltIn>False</EventFunction-EventCondition6-Software-IsBuiltIn>
+      <EventFunction-EventCondition6-Software-EventConditionType>Software</EventFunction-EventCondition6-Software-EventConditionType>
+      <EventFunction-EventCondition6-Software-EventNumber>5</EventFunction-EventCondition6-Software-EventNumber>
+      <EventFunction-EventCondition6-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition6-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition6-Software-BreakAddress-LoadModule>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition6-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition6-Software-BreakAddress-File>r_main.c</EventFunction-EventCondition6-Software-BreakAddress-File>
+      <EventFunction-EventCondition6-Software-BreakAddress-Directory>C:\Users\hashi\Documents\Projects\snaile\CODE\NEL_16_35_RFID_CC_V300_22b\boot\</EventFunction-EventCondition6-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition6-Software-BreakAddress-Symbol>_main</EventFunction-EventCondition6-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition6-Software-BreakAddress-Offset>88</EventFunction-EventCondition6-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition6-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition6-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition6-Software-EffectiveBreakAddress-Address>11104</EventFunction-EventCondition6-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition6-Software-ProcessorElementNumber>1</EventFunction-EventCondition6-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition6-Software-IsUseEventInformation>False</EventFunction-EventCondition6-Software-IsUseEventInformation>
+      <EventFunction-SaveEventConditionItemHardwareNumber>0</EventFunction-SaveEventConditionItemHardwareNumber>
+      <EventFunction-SaveEventConditionItemSoftwareNumber>6</EventFunction-SaveEventConditionItemSoftwareNumber>
+      <EventFunction-SaveActionEventNumber>0</EventFunction-SaveActionEventNumber>
+      <EventFunction-SaveBreakNumber>6</EventFunction-SaveBreakNumber>
+      <EventFunction-SaveTimerNumber>1</EventFunction-SaveTimerNumber>
+      <EventFunction-SavePerformanceNumber>0</EventFunction-SavePerformanceNumber>
+      <EventFunction-SaveTraceNumber>0</EventFunction-SaveTraceNumber>
+      <EventFunction-SaveNumberOfProcessorElement>1</EventFunction-SaveNumberOfProcessorElement>
+      <EventFunction-SaveNumberOfTimerChannel>0</EventFunction-SaveNumberOfTimerChannel>
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R5F100FJ</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+    <Instance Guid="b3648f00-5ee1-44bd-9fb9-d35fbaeed535">
+      <EventFunction-Timer1-Name>UgB1AG4ALQBCAHIAZQBhAGsAIABUAGkAbQBlAHIA</EventFunction-Timer1-Name>
+      <EventFunction-Timer1-Description />
+      <EventFunction-Timer1-EventStatus>Enable</EventFunction-Timer1-EventStatus>
+      <EventFunction-Timer1-EventStatusBeforeInvalid>Invalid</EventFunction-Timer1-EventStatusBeforeInvalid>
+      <EventFunction-Timer1-IsBuiltIn>True</EventFunction-Timer1-IsBuiltIn>
+      <EventFunction-Timer1-CountLimit>0</EventFunction-Timer1-CountLimit>
+      <EventFunction-Timer1-TimerLimit>0</EventFunction-Timer1-TimerLimit>
+      <EventFunction-Timer1-ChannelNumber>0</EventFunction-Timer1-ChannelNumber>
+      <EventFunction-Timer1-StartTimerEvent-SaveLength>0</EventFunction-Timer1-StartTimerEvent-SaveLength>
+      <EventFunction-Timer1-EndTimerEvent-SaveLength>0</EventFunction-Timer1-EndTimerEvent-SaveLength>
+      <EventFunction-Break1-Name>QgByAGUAYQBrADAAMAAwADQA</EventFunction-Break1-Name>
+      <EventFunction-Break1-Description />
+      <EventFunction-Break1-EventStatus>Enable</EventFunction-Break1-EventStatus>
+      <EventFunction-Break1-EventStatusBeforeInvalid>Invalid</EventFunction-Break1-EventStatusBeforeInvalid>
+      <EventFunction-Break1-IsBuiltIn>False</EventFunction-Break1-IsBuiltIn>
+      <EventFunction-Break1-CombinationType>None</EventFunction-Break1-CombinationType>
+      <EventFunction-Break1-HardwareBreakData-SaveLength>0</EventFunction-Break1-HardwareBreakData-SaveLength>
+      <EventFunction-Break1-SoftwareBreakData-SoftwareBreakNumber1>0</EventFunction-Break1-SoftwareBreakData-SoftwareBreakNumber1>
+      <EventFunction-Break1-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>1</EventFunction-Break1-SoftwareBreakData-SoftwareBreakProcessorElementNumber1>
+      <EventFunction-Break1-SoftwareBreakData-EventConditionName1>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA0AA==</EventFunction-Break1-SoftwareBreakData-EventConditionName1>
+      <EventFunction-Break1-SoftwareBreakData-SaveLength>1</EventFunction-Break1-SoftwareBreakData-SaveLength>
+      <EventFunction-EventCondition1-Software-Name>RQB2AGUAbgB0ACAAQwBvAG4AZABpAHQAaQBvAG4AIAA0AA==</EventFunction-EventCondition1-Software-Name>
+      <EventFunction-EventCondition1-Software-Description />
+      <EventFunction-EventCondition1-Software-IsBuiltIn>False</EventFunction-EventCondition1-Software-IsBuiltIn>
+      <EventFunction-EventCondition1-Software-EventConditionType>Software</EventFunction-EventCondition1-Software-EventConditionType>
+      <EventFunction-EventCondition1-Software-EventNumber>0</EventFunction-EventCondition1-Software-EventNumber>
+      <EventFunction-EventCondition1-Software-BreakAddress-LocationType>SymbolOffset</EventFunction-EventCondition1-Software-BreakAddress-LocationType>
+      <EventFunction-EventCondition1-Software-BreakAddress-LoadModule>C:\Users\hashi\OneDrive\Documents\PROJECTS\NEONA\wetransfer_g14_bootloader_my-zip_2022-07-18_1200\New_Code_Integration\EC25_OTA_E_SERIES\NEL_16_35_RFID_CC_V300_28b\boot\DefaultBuild\boot.abs</EventFunction-EventCondition1-Software-BreakAddress-LoadModule>
+      <EventFunction-EventCondition1-Software-BreakAddress-File>r_main.c</EventFunction-EventCondition1-Software-BreakAddress-File>
+      <EventFunction-EventCondition1-Software-BreakAddress-Directory>C:\Users\hashi\OneDrive\Documents\PROJECTS\NEONA\wetransfer_g14_bootloader_my-zip_2022-07-18_1200\New_Code_Integration\EC25_OTA_E_SERIES\NEL_16_35_RFID_CC_V300_28b\boot\</EventFunction-EventCondition1-Software-BreakAddress-Directory>
+      <EventFunction-EventCondition1-Software-BreakAddress-Symbol>_main</EventFunction-EventCondition1-Software-BreakAddress-Symbol>
+      <EventFunction-EventCondition1-Software-BreakAddress-Offset>168</EventFunction-EventCondition1-Software-BreakAddress-Offset>
+      <EventFunction-EventCondition1-Software-EffectiveBreakAddress-LocationType>Address</EventFunction-EventCondition1-Software-EffectiveBreakAddress-LocationType>
+      <EventFunction-EventCondition1-Software-EffectiveBreakAddress-Address>794</EventFunction-EventCondition1-Software-EffectiveBreakAddress-Address>
+      <EventFunction-EventCondition1-Software-ProcessorElementNumber>1</EventFunction-EventCondition1-Software-ProcessorElementNumber>
+      <EventFunction-EventCondition1-Software-IsUseEventInformation>False</EventFunction-EventCondition1-Software-IsUseEventInformation>
+      <EventFunction-SaveEventConditionItemHardwareNumber>0</EventFunction-SaveEventConditionItemHardwareNumber>
+      <EventFunction-SaveEventConditionItemSoftwareNumber>1</EventFunction-SaveEventConditionItemSoftwareNumber>
+      <EventFunction-SaveActionEventNumber>0</EventFunction-SaveActionEventNumber>
+      <EventFunction-SaveBreakNumber>1</EventFunction-SaveBreakNumber>
+      <EventFunction-SaveTimerNumber>1</EventFunction-SaveTimerNumber>
+      <EventFunction-SavePerformanceNumber>0</EventFunction-SavePerformanceNumber>
+      <EventFunction-SaveTraceNumber>0</EventFunction-SaveTraceNumber>
+      <EventFunction-SaveNumberOfProcessorElement>1</EventFunction-SaveNumberOfProcessorElement>
+      <EventFunction-SaveNumberOfTimerChannel>0</EventFunction-SaveNumberOfTimerChannel>
+      <DeviceChangedCounter>1</DeviceChangedCounter>
+      <DeviceName>R5F100FL</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+    <Instance Guid="f465880b-b640-48fe-84be-6c3493014c93">
+      <DeviceChangedCounter>1</DeviceChangedCounter>
+      <DeviceName>R5F100FL</DeviceName>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>SymbolOffset</DebuggerProperty-OptionalProperty-Assemble-DisplaySymbol>
+      <DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>Yes</DebuggerProperty-OptionalProperty-Assemble-DisplayFunctionName>
+    </Instance>
+  </Class>
+  <Class Guid="2c267d36-9968-416b-8f39-cfcf1e069830">
+    <Instance Guid="9a2aa537-6164-42cd-80e4-e708b32cd890">
+      <Bookmarks>0</Bookmarks>
+    </Instance>
+  </Class>
+  <Class Guid="ce51aa0d-1353-40fe-ba85-46c1106c7c21">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <IsSymbolOffsetVisible>False</IsSymbolOffsetVisible>
+      <IsCurrentPCTracking>False</IsCurrentPCTracking>
+      <SourceTextVisible>True</SourceTextVisible>
+    </Instance>
+  </Class>
+  <Class Guid="0f65773b-f830-4042-8079-b38957be1b13">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <IsSymbolOffsetVisible>False</IsSymbolOffsetVisible>
+      <IsCurrentPCTracking>False</IsCurrentPCTracking>
+      <SourceTextVisible>True</SourceTextVisible>
+    </Instance>
+  </Class>
+  <Class Guid="0550f945-5481-49df-a4f7-4494d0113007">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <IsSymbolOffsetVisible>False</IsSymbolOffsetVisible>
+      <IsCurrentPCTracking>False</IsCurrentPCTracking>
+      <SourceTextVisible>True</SourceTextVisible>
+    </Instance>
+  </Class>
+  <Class Guid="a2909be3-c046-45e6-a811-0c5634810437">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <IsSymbolOffsetVisible>False</IsSymbolOffsetVisible>
+      <IsCurrentPCTracking>False</IsCurrentPCTracking>
+      <SourceTextVisible>True</SourceTextVisible>
+    </Instance>
+  </Class>
+  <Class Guid="eeae2c1c-3b17-44ca-9a69-17638edf07a9">
+    <Instance Guid="ffd1bb0e-b707-4d38-8165-aa8629d78fcc">
+      <Name>PanelWatch1</Name>
+      <WatchExpressionColumnWidth>150</WatchExpressionColumnWidth>
+      <ValueColumnWindth>100</ValueColumnWindth>
+      <TypeColumnWidth>150</TypeColumnWidth>
+      <AddressColumnWidth>100</AddressColumnWidth>
+      <MemoColumnWidth>150</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+      <WatchId0>0</WatchId0>
+      <ParentId0>-1</ParentId0>
+      <WatchStatement0>data</WatchStatement0>
+      <WatchType0>WatchItem</WatchType0>
+      <Memo0 />
+      <BitWidth0>8</BitWidth0>
+      <Encode0>20127</Encode0>
+      <WithHexadecimal0>True</WithHexadecimal0>
+      <Expanded0>False</Expanded0>
+      <Notation0>Auto</Notation0>
+      <WatchId1>1</WatchId1>
+      <ParentId1>-1</ParentId1>
+      <WatchStatement1>buffer</WatchStatement1>
+      <WatchType1>WatchItem</WatchType1>
+      <Memo1 />
+      <BitWidth1>8</BitWidth1>
+      <Encode1>20127</Encode1>
+      <WithHexadecimal1>True</WithHexadecimal1>
+      <Expanded1>False</Expanded1>
+      <Notation1>Auto</Notation1>
+      <WatchId2>2</WatchId2>
+      <ParentId2>-1</ParentId2>
+      <WatchStatement2>i</WatchStatement2>
+      <WatchType2>WatchItem</WatchType2>
+      <Memo2 />
+      <BitWidth2>8</BitWidth2>
+      <Encode2>20127</Encode2>
+      <WithHexadecimal2>True</WithHexadecimal2>
+      <Expanded2>False</Expanded2>
+      <Notation2>Auto</Notation2>
+      <WatchId3>3</WatchId3>
+      <ParentId3>-1</ParentId3>
+      <WatchStatement3>vu8_GSM_Packet_Status</WatchStatement3>
+      <WatchType3>WatchItem</WatchType3>
+      <Memo3 />
+      <BitWidth3>8</BitWidth3>
+      <Encode3>20127</Encode3>
+      <WithHexadecimal3>True</WithHexadecimal3>
+      <Expanded3>False</Expanded3>
+      <Notation3>Auto</Notation3>
+      <WatchId4>4</WatchId4>
+      <ParentId4>-1</ParentId4>
+      <WatchStatement4>data_buff</WatchStatement4>
+      <WatchType4>WatchItem</WatchType4>
+      <Memo4 />
+      <BitWidth4>8</BitWidth4>
+      <Encode4>20127</Encode4>
+      <WithHexadecimal4>True</WithHexadecimal4>
+      <Expanded4>False</Expanded4>
+      <Notation4>Auto</Notation4>
+      <WatchId5>5</WatchId5>
+      <ParentId5>-1</ParentId5>
+      <WatchStatement5>tick_count</WatchStatement5>
+      <WatchType5>WatchItem</WatchType5>
+      <Memo5 />
+      <BitWidth5>8</BitWidth5>
+      <Encode5>20127</Encode5>
+      <WithHexadecimal5>True</WithHexadecimal5>
+      <Expanded5>False</Expanded5>
+      <Notation5>Auto</Notation5>
+      <WatchId6>6</WatchId6>
+      <ParentId6>-1</ParentId6>
+      <WatchStatement6>ret</WatchStatement6>
+      <WatchType6>WatchItem</WatchType6>
+      <Memo6 />
+      <BitWidth6>8</BitWidth6>
+      <Encode6>20127</Encode6>
+      <WithHexadecimal6>True</WithHexadecimal6>
+      <Expanded6>False</Expanded6>
+      <Notation6>Auto</Notation6>
+    </Instance>
+    <Instance Guid="3e85fe22-38a0-44af-bbc8-8b0507ddb643">
+      <Name>PanelWatch2</Name>
+      <WatchExpressionColumnWidth>150</WatchExpressionColumnWidth>
+      <ValueColumnWindth>100</ValueColumnWindth>
+      <TypeColumnWidth>150</TypeColumnWidth>
+      <AddressColumnWidth>100</AddressColumnWidth>
+      <MemoColumnWidth>150</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+    <Instance Guid="355e79de-dc0b-4fa3-84bf-ee0d9c1ba57f">
+      <Name>PanelWatch3</Name>
+      <WatchExpressionColumnWidth>150</WatchExpressionColumnWidth>
+      <ValueColumnWindth>100</ValueColumnWindth>
+      <TypeColumnWidth>150</TypeColumnWidth>
+      <AddressColumnWidth>100</AddressColumnWidth>
+      <MemoColumnWidth>150</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+    <Instance Guid="db34cb34-72b5-4527-9a2b-09189d05d858">
+      <Name>PanelWatch4</Name>
+      <WatchExpressionColumnWidth>150</WatchExpressionColumnWidth>
+      <ValueColumnWindth>100</ValueColumnWindth>
+      <TypeColumnWidth>150</TypeColumnWidth>
+      <AddressColumnWidth>100</AddressColumnWidth>
+      <MemoColumnWidth>150</MemoColumnWidth>
+      <ArrayIndexNotation>None</ArrayIndexNotation>
+    </Instance>
+  </Class>
+  <Class Guid="cd02d324-a75c-4e2b-b858-33bd0d529683">
+    <Instance Guid="7f99f0d7-ad41-4e24-b822-a21c2c44cb6d">
+      <Name>PanelIORegister</Name>
+      <WatchExpressionColumnWidth>150</WatchExpressionColumnWidth>
+      <ValueColumnWindth>100</ValueColumnWindth>
+      <TypeColumnWidth>150</TypeColumnWidth>
+      <AddressColumnWidth>100</AddressColumnWidth>
+      <MemoColumnWidth>150</MemoColumnWidth>
+    </Instance>
+  </Class>
+  <Class Guid="9e32877b-f8ee-49c6-a44e-88758c92bfd6">
+    <Instance Guid="5009dc39-5303-442f-bf09-6ab41105c4e4">
+      <Name>PanelCpuRegister</Name>
+      <WatchExpressionColumnWidth>0</WatchExpressionColumnWidth>
+      <ValueColumnWindth>0</ValueColumnWindth>
+      <TypeColumnWidth>0</TypeColumnWidth>
+      <AddressColumnWidth>0</AddressColumnWidth>
+      <MemoColumnWidth>0</MemoColumnWidth>
+    </Instance>
+  </Class>
+  <Class Guid="6a2b4ad0-1b10-43f2-be75-80747f093531">
+    <Instance Guid="4c4194a5-8901-49ad-9a38-fe608d2120d5">
+      <Name>PanelLocalVariable</Name>
+      <WatchExpressionColumnWidth>150</WatchExpressionColumnWidth>
+      <ValueColumnWindth>100</ValueColumnWindth>
+      <TypeColumnWidth>150</TypeColumnWidth>
+      <AddressColumnWidth>100</AddressColumnWidth>
+      <MemoColumnWidth>150</MemoColumnWidth>
+      <IncludeHexadecimalValue>False</IncludeHexadecimalValue>
+      <WatchItemNotation>Decimal</WatchItemNotation>
+      <ArrayIndexNotation>Decimal</ArrayIndexNotation>
+      <StringEncoding>20127</StringEncoding>
+    </Instance>
+  </Class>
+  <Class Guid="18ef5858-38c3-420a-be15-54d5039f280c">
+    <Instance Guid="b6138232-2142-4eeb-9dcb-55df51626454">
+      <Name>PanelCallStack</Name>
+      <WatchItemNotation>Auto</WatchItemNotation>
+      <ArrayIndexNotation>Decimal</ArrayIndexNotation>
+      <StringEncoding>20127</StringEncoding>
+      <IsModuleFileShow>True</IsModuleFileShow>
+      <IsParameterShow>True</IsParameterShow>
+      <DepthColumnWidth>50</DepthColumnWidth>
+      <CallStackColumnWidth>500</CallStackColumnWidth>
+    </Instance>
+  </Class>
+  <Class Guid="d560aa5b-55a3-4ab3-8943-80835f7092bb">
+    <Instance Guid="d55305c0-229a-428c-99e5-cb62b9dca98c">
+      <NameColumnWIDTH>0</NameColumnWIDTH>
+      <DetailColumnWidth>0</DetailColumnWidth>
+      <CommentColumnWidth>0</CommentColumnWidth>
+      <IndividualDetailColumnWidth>0</IndividualDetailColumnWidth>
+      <TotalTimeColumnWidth>0</TotalTimeColumnWidth>
+      <PassCountColumnWidth>0</PassCountColumnWidth>
+      <AverageTimeColumnWidth>0</AverageTimeColumnWidth>
+      <MaxTimeColumnWidth>0</MaxTimeColumnWidth>
+      <MinimumTimeColumnWidth>0</MinimumTimeColumnWidth>
+      <TimerEventName0>Run-Break Timer</TimerEventName0>
+      <TimerEventUnit0>Nanosecond</TimerEventUnit0>
+    </Instance>
+  </Class>
+  <Class Guid="be300f29-1d30-421a-8dc0-66ed37f33d52">
+    <Instance Guid="5ebc13c5-f2c7-46ec-9f6a-42b25b2ba7e9">
+      <Name>PanelTrace</Name>
+      <ConnectDisassembleWindow>False</ConnectDisassembleWindow>
+      <ConnectSourceWindow>False</ConnectSourceWindow>
+      <PanelNotation>Decimal</PanelNotation>
+      <ViewMode>Mixed</ViewMode>
+    </Instance>
+  </Class>
+  <Class Guid="59478c88-e5ec-417f-a204-6107640bab37">
+    <Instance Guid="7bc52930-c97a-4dde-b6b9-e26c69b1a93e">
+      <Name>PanelMemory1</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+    <Instance Guid="90a2556c-9033-4c64-a38d-abba6c142108">
+      <Name>PanelMemory2</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+    <Instance Guid="ddd84c80-5e6f-4c6b-87e1-dc3478c58d56">
+      <Name>PanelMemory3</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+    <Instance Guid="95c55487-eb70-4946-9ede-42e2711a47c8">
+      <Name>PanelMemory4</Name>
+      <Notation>Hexadecimal</Notation>
+      <StringEncoding>Ascii</StringEncoding>
+      <ViewBitWidth>View8bitWidth</ViewBitWidth>
+      <MemoryDataCode>None</MemoryDataCode>
+      <IsAutoEvaluation>False</IsAutoEvaluation>
+      <HighlightAccessedArea>True</HighlightAccessedArea>
+      <EvaluationText />
+      <LineByteCount>16</LineByteCount>
+      <ViewAddressOffset>0</ViewAddressOffset>
+    </Instance>
+  </Class>
+  <Class Guid="d9e7a26a-0526-4119-b8c3-b0112e16eb03">
+    <Instance Guid="d9e7a26a-0526-4119-b8c3-b0112e16eb03">
+      <DebugConsole-COMport>COM1</DebugConsole-COMport>
+      <DebugConsole-Baudrate>0</DebugConsole-Baudrate>
+      <DebugConsole-Echoback>enable</DebugConsole-Echoback>
+      <DebugConsole-EnableDisable>enable</DebugConsole-EnableDisable>
+    </Instance>
+  </Class>
+  <Class Guid="29b411d9-bd89-4bd0-8039-3f500de10677">
+    <Instance Guid="76aae16a-9b3c-4e4f-9390-f377b426311f">
+      <ProjectSaveKeyHoldPrebuildOptions>True</ProjectSaveKeyHoldPrebuildOptions>
+      <ProjectSaveKeyMeasurmentConditionOperationAfterRecordMemory>NonStopOverwriteMemory</ProjectSaveKeyMeasurmentConditionOperationAfterRecordMemory>
+      <ProjectSaveKeyMeasurmentConditionSamplingTime>ST10US</ProjectSaveKeyMeasurmentConditionSamplingTime>
+      <ProjectSaveKeyMeasurmentConditionAcqCond>All</ProjectSaveKeyMeasurmentConditionAcqCond>
+      <ProjectSaveKeyTriggerConditionUseTriggerFunction>False</ProjectSaveKeyTriggerConditionUseTriggerFunction>
+      <ProjectSaveKeyFindCondition>OverThreshold</ProjectSaveKeyFindCondition>
+      <ProjectSaveKeyPanelStatusHideAllOptionalLine>False</ProjectSaveKeyPanelStatusHideAllOptionalLine>
+      <ProjectSaveKeyPanelStatusConnectSourceWindow>False</ProjectSaveKeyPanelStatusConnectSourceWindow>
+    </Instance>
+  </Class>
+  <Class Guid="78a1d8b9-6c3e-49af-90d4-3c01ff02a7b4">
+    <Instance Guid="ec8b1ab3-b062-4f67-8de0-8a9cfd0e8265">
+      <ViewHardwareBreak>True</ViewHardwareBreak>
+      <ViewSoftwareBreak>True</ViewSoftwareBreak>
+      <ViewTimer>True</ViewTimer>
+      <ViewPerformance>True</ViewPerformance>
+      <ViewTrace>True</ViewTrace>
+      <ViewAction>True</ViewAction>
+      <ViewBuiltin>True</ViewBuiltin>
+    </Instance>
+  </Class>
+</CubeSuiteProject.User>

@@ -1,0 +1,4 @@
+-input=./boot\DefaultBuild\boot0000_1fff.hex
+-input=./DefaultBuild\flash3000_ffff.hex
+-form=hex
+-output=./DefaultBuild\boot_flash.hex

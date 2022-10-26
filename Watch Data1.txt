@@ -1,0 +1,280 @@
+﻿CS+ V8.07.00  [01 Dec 2021] [Watch Information]
+07 August 2022 00:00:42
+Debug Tool :RL78 E2 Lite
+Project Name :NEL_16_35_RFID_CC_V300_22b
+Watch                 Value       Type(Byte Size) Address     Memo
+------------------------------------------------------------------------------
+[0]                   '' (0x03)  uint8_t(1)      0xf84f8                     
+[1]                   ' ' (0x00)  uint8_t(1)      0xf84f9                     
+[2]                   ' ' (0x00)  uint8_t(1)      0xf84fa                     
+[3]                   ' ' (0x00)  uint8_t(1)      0xf84fb                     
+[4]                   '	' (0x09)  uint8_t(1)      0xf84fc                     
+[5]                   ' ' (0x00)  uint8_t(1)      0xf84fd                     
+[6]                   '' (0x1e)  uint8_t(1)      0xf84fe                     
+[7]                   ' ' (0x00)  uint8_t(1)      0xf84ff                     
+[8]                   '' (0x11)  uint8_t(1)      0xf8500                     
+[9]                   ' ' (0x00)  uint8_t(1)      0xf8501                     
+[10]                  '' (0x1e)  uint8_t(1)      0xf8502                     
+[11]                  ' ' (0x00)  uint8_t(1)      0xf8503                     
+[12]                  '' (0x0a)   uint8_t(1)      0xf8504                     
+[13]                  ' ' (0x00)  uint8_t(1)      0xf8505                     
+[14]                  '' (0x0a)   uint8_t(1)      0xf8506                     
+[15]                  ' ' (0x00)  uint8_t(1)      0xf8507                     
+[16]                  '' (0x0a)   uint8_t(1)      0xf8508                     
+[17]                  ' ' (0x00)  uint8_t(1)      0xf8509                     
+[18]                  '' (0x19)  uint8_t(1)      0xf850a                     
+[19]                  ' ' (0x00)  uint8_t(1)      0xf850b                     
+[20]                  '' (0x01)  uint8_t(1)      0xf850c                     
+[21]                  ' ' (0x00)  uint8_t(1)      0xf850d                     
+[22]                  '?' (0xe6)  uint8_t(1)      0xf850e                     
+[23]                  '' (0x07)  uint8_t(1)      0xf850f                     
+[24]                  '1' (0x31)  uint8_t(1)      0xf8510                     
+[25]                  '2' (0x32)  uint8_t(1)      0xf8511                     
+[26]                  '3' (0x33)  uint8_t(1)      0xf8512                     
+[27]                  '4' (0x34)  uint8_t(1)      0xf8513                     
+[28]                  '5' (0x35)  uint8_t(1)      0xf8514                     
+[29]                  '6' (0x36)  uint8_t(1)      0xf8515                     
+[30]                  ' ' (0x00)  uint8_t(1)      0xf8516                     
+[31]                  '?' (0xff)  uint8_t(1)      0xf8517                     
+[32]                  '' (0x05)  uint8_t(1)      0xf8518                     
+[33]                  ' ' (0x00)  uint8_t(1)      0xf8519                     
+[34]                  '' (0x1e)  uint8_t(1)      0xf851a                     
+[35]                  ' ' (0x00)  uint8_t(1)      0xf851b                     
+[36]                  ' ' (0x00)  uint8_t(1)      0xf851c                     
+[37]                  ' ' (0x00)  uint8_t(1)      0xf851d                     
+[38]                  '+' (0x2b)  uint8_t(1)      0xf851e                     
+[39]                  '?' (0xff)  uint8_t(1)      0xf851f                     
+[40]                  '' (0x05)  uint8_t(1)      0xf8520                     
+[41]                  ' ' (0x00)  uint8_t(1)      0xf8521                     
+[42]                  '' (0x1e)  uint8_t(1)      0xf8522                     
+[43]                  ' ' (0x00)  uint8_t(1)      0xf8523                     
+[44]                  'h' (0x68)  uint8_t(1)      0xf8524                     
+[45]                  't' (0x74)  uint8_t(1)      0xf8525                     
+[46]                  't' (0x74)  uint8_t(1)      0xf8526                     
+[47]                  'p' (0x70)  uint8_t(1)      0xf8527                     
+[48]                  's' (0x73)  uint8_t(1)      0xf8528                     
+[49]                  ':' (0x3a)  uint8_t(1)      0xf8529                     
+[50]                  '/' (0x2f)  uint8_t(1)      0xf852a                     
+[51]                  '/' (0x2f)  uint8_t(1)      0xf852b                     
+[52]                  'a' (0x61)  uint8_t(1)      0xf852c                     
+[53]                  'p' (0x70)  uint8_t(1)      0xf852d                     
+[54]                  'i' (0x69)  uint8_t(1)      0xf852e                     
+[55]                  '.' (0x2e)  uint8_t(1)      0xf852f                     
+[56]                  's' (0x73)  uint8_t(1)      0xf8530                     
+[57]                  'n' (0x6e)  uint8_t(1)      0xf8531                     
+[58]                  'a' (0x61)  uint8_t(1)      0xf8532                     
+[59]                  'i' (0x69)  uint8_t(1)      0xf8533                     
+[60]                  'l' (0x6c)  uint8_t(1)      0xf8534                     
+[61]                  'e' (0x65)  uint8_t(1)      0xf8535                     
+[62]                  'c' (0x63)  uint8_t(1)      0xf8536                     
+[63]                  'l' (0x6c)  uint8_t(1)      0xf8537                     
+[64]                  'o' (0x6f)  uint8_t(1)      0xf8538                     
+[65]                  'u' (0x75)  uint8_t(1)      0xf8539                     
+[66]                  'd' (0x64)  uint8_t(1)      0xf853a                     
+[67]                  '.' (0x2e)  uint8_t(1)      0xf853b                     
+[68]                  'c' (0x63)  uint8_t(1)      0xf853c                     
+[69]                  'o' (0x6f)  uint8_t(1)      0xf853d                     
+[70]                  'm' (0x6d)  uint8_t(1)      0xf853e                     
+[71]                  '/' (0x2f)  uint8_t(1)      0xf853f                     
+[72]                  'd' (0x64)  uint8_t(1)      0xf8540                     
+[73]                  'e' (0x65)  uint8_t(1)      0xf8541                     
+[74]                  'v' (0x76)  uint8_t(1)      0xf8542                     
+[75]                  'i' (0x69)  uint8_t(1)      0xf8543                     
+[76]                  'c' (0x63)  uint8_t(1)      0xf8544                     
+[77]                  'e' (0x65)  uint8_t(1)      0xf8545                     
+[78]                  '/' (0x2f)  uint8_t(1)      0xf8546                     
+[79]                  'r' (0x72)  uint8_t(1)      0xf8547                     
+[80]                  'f' (0x66)  uint8_t(1)      0xf8548                     
+[81]                  'i' (0x69)  uint8_t(1)      0xf8549                     
+[82]                  'd' (0x64)  uint8_t(1)      0xf854a                     
+[83]                  '/' (0x2f)  uint8_t(1)      0xf854b                     
+[84]                  '8' (0x38)  uint8_t(1)      0xf854c                     
+[85]                  '6' (0x36)  uint8_t(1)      0xf854d                     
+[86]                  '1' (0x31)  uint8_t(1)      0xf854e                     
+[87]                  '0' (0x30)  uint8_t(1)      0xf854f                     
+[88]                  '7' (0x37)  uint8_t(1)      0xf8550                     
+[89]                  '5' (0x35)  uint8_t(1)      0xf8551                     
+[90]                  '0' (0x30)  uint8_t(1)      0xf8552                     
+[91]                  '2' (0x32)  uint8_t(1)      0xf8553                     
+[92]                  '4' (0x34)  uint8_t(1)      0xf8554                     
+[93]                  '9' (0x39)  uint8_t(1)      0xf8555                     
+[94]                  '9' (0x39)  uint8_t(1)      0xf8556                     
+[95]                  '1' (0x31)  uint8_t(1)      0xf8557                     
+[96]                  '4' (0x34)  uint8_t(1)      0xf8558                     
+[97]                  '6' (0x36)  uint8_t(1)      0xf8559                     
+[98]                  '5' (0x35)  uint8_t(1)      0xf855a                     
+[99]                  '/' (0x2f)  uint8_t(1)      0xf855b                     
+[100]                 '0' (0x30)  uint8_t(1)      0xf855c                     
+[101]                 '8' (0x38)  uint8_t(1)      0xf855d                     
+[102]                 '9' (0x39)  uint8_t(1)      0xf855e                     
+[103]                 '3' (0x33)  uint8_t(1)      0xf855f                     
+[104]                 '5' (0x35)  uint8_t(1)      0xf8560                     
+[105]                 '2' (0x32)  uint8_t(1)      0xf8561                     
+[106]                 '0' (0x30)  uint8_t(1)      0xf8562                     
+[107]                 '1' (0x31)  uint8_t(1)      0xf8563                     
+[108]                 '6' (0x36)  uint8_t(1)      0xf8564                     
+[109]                 '4' (0x34)  uint8_t(1)      0xf8565                     
+[110]                 '1' (0x31)  uint8_t(1)      0xf8566                     
+[111]                 '4' (0x34)  uint8_t(1)      0xf8567                     
+[112]                 '0' (0x30)  uint8_t(1)      0xf8568                     
+[113]                 '0' (0x30)  uint8_t(1)      0xf8569                     
+[114]                 '6' (0x36)  uint8_t(1)      0xf856a                     
+[115]                 '6' (0x36)  uint8_t(1)      0xf856b                     
+[116]                 '2' (0x32)  uint8_t(1)      0xf856c                     
+[117]                 '0' (0x30)  uint8_t(1)      0xf856d                     
+[118]                 '2' (0x32)  uint8_t(1)      0xf856e                     
+[119]                 '6' (0x36)  uint8_t(1)      0xf856f                     
+[120]                 ' ' (0x00)  uint8_t(1)      0xf8570                     
+[121]                 '?' (0xff)  uint8_t(1)      0xf8571                     
+[122]                 '?' (0xff)  uint8_t(1)      0xf8572                     
+[123]                 '?' (0xff)  uint8_t(1)      0xf8573                     
+[124]                 '?' (0xff)  uint8_t(1)      0xf8574                     
+[125]                 '?' (0xff)  uint8_t(1)      0xf8575                     
+[126]                 '?' (0xff)  uint8_t(1)      0xf8576                     
+[127]                 '?' (0xff)  uint8_t(1)      0xf8577                     
+[128]                 '?' (0xff)  uint8_t(1)      0xf8578                     
+[129]                 '?' (0xff)  uint8_t(1)      0xf8579                     
+[130]                 '?' (0xff)  uint8_t(1)      0xf857a                     
+[131]                 '?' (0xff)  uint8_t(1)      0xf857b                     
+[132]                 '?' (0xff)  uint8_t(1)      0xf857c                     
+[133]                 '?' (0xff)  uint8_t(1)      0xf857d                     
+[134]                 '?' (0xff)  uint8_t(1)      0xf857e                     
+[135]                 '?' (0xff)  uint8_t(1)      0xf857f                     
+[136]                 '?' (0xff)  uint8_t(1)      0xf8580                     
+[137]                 '?' (0xff)  uint8_t(1)      0xf8581                     
+[138]                 '?' (0xff)  uint8_t(1)      0xf8582                     
+[139]                 '?' (0xff)  uint8_t(1)      0xf8583                     
+[140]                 '?' (0xff)  uint8_t(1)      0xf8584                     
+[141]                 '?' (0xff)  uint8_t(1)      0xf8585                     
+[142]                 '?' (0xff)  uint8_t(1)      0xf8586                     
+[143]                 '?' (0xff)  uint8_t(1)      0xf8587                     
+[144]                 '?' (0xff)  uint8_t(1)      0xf8588                     
+[145]                 '?' (0xff)  uint8_t(1)      0xf8589                     
+[146]                 '?' (0xff)  uint8_t(1)      0xf858a                     
+[147]                 '?' (0xff)  uint8_t(1)      0xf858b                     
+[148]                 '?' (0xff)  uint8_t(1)      0xf858c                     
+[149]                 '?' (0xff)  uint8_t(1)      0xf858d                     
+[150]                 '?' (0xff)  uint8_t(1)      0xf858e                     
+[151]                 '?' (0xff)  uint8_t(1)      0xf858f                     
+[152]                 '?' (0xff)  uint8_t(1)      0xf8590                     
+[153]                 '?' (0xff)  uint8_t(1)      0xf8591                     
+[154]                 '?' (0xff)  uint8_t(1)      0xf8592                     
+[155]                 '?' (0xff)  uint8_t(1)      0xf8593                     
+[156]                 '?' (0xff)  uint8_t(1)      0xf8594                     
+[157]                 '?' (0xff)  uint8_t(1)      0xf8595                     
+[158]                 '?' (0xff)  uint8_t(1)      0xf8596                     
+[159]                 '?' (0xff)  uint8_t(1)      0xf8597                     
+[160]                 '?' (0xff)  uint8_t(1)      0xf8598                     
+[161]                 '?' (0xff)  uint8_t(1)      0xf8599                     
+[162]                 '?' (0xff)  uint8_t(1)      0xf859a                     
+[163]                 '?' (0xff)  uint8_t(1)      0xf859b                     
+[164]                 '?' (0xff)  uint8_t(1)      0xf859c                     
+[165]                 '?' (0xff)  uint8_t(1)      0xf859d                     
+[166]                 '?' (0xff)  uint8_t(1)      0xf859e                     
+[167]                 '?' (0xff)  uint8_t(1)      0xf859f                     
+[168]                 '?' (0xff)  uint8_t(1)      0xf85a0                     
+[169]                 '?' (0xff)  uint8_t(1)      0xf85a1                     
+[170]                 '?' (0xff)  uint8_t(1)      0xf85a2                     
+[171]                 '?' (0xff)  uint8_t(1)      0xf85a3                     
+[172]                 'j' (0x6a)  uint8_t(1)      0xf85a4                     
+[173]                 'i' (0x69)  uint8_t(1)      0xf85a5                     
+[174]                 'o' (0x6f)  uint8_t(1)      0xf85a6                     
+[175]                 'n' (0x6e)  uint8_t(1)      0xf85a7                     
+[176]                 'e' (0x65)  uint8_t(1)      0xf85a8                     
+[177]                 't' (0x74)  uint8_t(1)      0xf85a9                     
+[178]                 ' ' (0x00)  uint8_t(1)      0xf85aa                     
+[179]                 '?' (0xff)  uint8_t(1)      0xf85ab                     
+[180]                 '?' (0xff)  uint8_t(1)      0xf85ac                     
+[181]                 '?' (0xff)  uint8_t(1)      0xf85ad                     
+[182]                 '?' (0xff)  uint8_t(1)      0xf85ae                     
+[183]                 '?' (0xff)  uint8_t(1)      0xf85af                     
+[184]                 '?' (0xff)  uint8_t(1)      0xf85b0                     
+[185]                 '?' (0xff)  uint8_t(1)      0xf85b1                     
+[186]                 '?' (0xff)  uint8_t(1)      0xf85b2                     
+[187]                 '?' (0xff)  uint8_t(1)      0xf85b3                     
+[188]                 '?' (0xff)  uint8_t(1)      0xf85b4                     
+[189]                 '?' (0xff)  uint8_t(1)      0xf85b5                     
+[190]                 '' (0x01)  uint8_t(1)      0xf85b6                     
+[191]                 ' ' (0x00)  uint8_t(1)      0xf85b7                     
+[192]                 '' (0x01)  uint8_t(1)      0xf85b8                     
+[193]                 ' ' (0x00)  uint8_t(1)      0xf85b9                     
+[194]                 '?' (0xff)  uint8_t(1)      0xf85ba                     
+[195]                 '?' (0xff)  uint8_t(1)      0xf85bb                     
+[196]                 '?' (0xff)  uint8_t(1)      0xf85bc                     
+[197]                 '?' (0xff)  uint8_t(1)      0xf85bd                     
+[198]                 '?' (0xff)  uint8_t(1)      0xf85be                     
+[199]                 '?' (0xff)  uint8_t(1)      0xf85bf                     
+[200]                 ' ' (0x00)  uint8_t(1)      0xf85c0                     
+[201]                 ' ' (0x00)  uint8_t(1)      0xf85c1                     
+[202]                 '?' (0xff)  uint8_t(1)      0xf85c2                     
+[203]                 '?' (0xff)  uint8_t(1)      0xf85c3                     
+[204]                 '?' (0xff)  uint8_t(1)      0xf85c4                     
+[205]                 '?' (0xff)  uint8_t(1)      0xf85c5                     
+[206]                 '?' (0xff)  uint8_t(1)      0xf85c6                     
+[207]                 '?' (0xff)  uint8_t(1)      0xf85c7                     
+[208]                 '?' (0xff)  uint8_t(1)      0xf85c8                     
+[209]                 '?' (0xff)  uint8_t(1)      0xf85c9                     
+[210]                 '?' (0xff)  uint8_t(1)      0xf85ca                     
+[211]                 '?' (0xff)  uint8_t(1)      0xf85cb                     
+[212]                 '?' (0xff)  uint8_t(1)      0xf85cc                     
+[213]                 '?' (0xff)  uint8_t(1)      0xf85cd                     
+[214]                 '?' (0xff)  uint8_t(1)      0xf85ce                     
+[215]                 '?' (0xff)  uint8_t(1)      0xf85cf                     
+[216]                 '?' (0xff)  uint8_t(1)      0xf85d0                     
+[217]                 '?' (0xff)  uint8_t(1)      0xf85d1                     
+[218]                 '?' (0xff)  uint8_t(1)      0xf85d2                     
+[219]                 '?' (0xff)  uint8_t(1)      0xf85d3                     
+[220]                 '?' (0xff)  uint8_t(1)      0xf85d4                     
+[221]                 '?' (0xff)  uint8_t(1)      0xf85d5                     
+[222]                 '?' (0xff)  uint8_t(1)      0xf85d6                     
+[223]                 '?' (0xff)  uint8_t(1)      0xf85d7                     
+[224]                 '?' (0xff)  uint8_t(1)      0xf85d8                     
+[225]                 '?' (0xff)  uint8_t(1)      0xf85d9                     
+[226]                 '?' (0xff)  uint8_t(1)      0xf85da                     
+[227]                 '?' (0xff)  uint8_t(1)      0xf85db                     
+[228]                 '?' (0xff)  uint8_t(1)      0xf85dc                     
+[229]                 '?' (0xff)  uint8_t(1)      0xf85dd                     
+[230]                 '?' (0xff)  uint8_t(1)      0xf85de                     
+[231]                 '?' (0xff)  uint8_t(1)      0xf85df                     
+[232]                 '?' (0xff)  uint8_t(1)      0xf85e0                     
+[233]                 '?' (0xff)  uint8_t(1)      0xf85e1                     
+[234]                 '?' (0xff)  uint8_t(1)      0xf85e2                     
+[235]                 '?' (0xff)  uint8_t(1)      0xf85e3                     
+[236]                 '?' (0xff)  uint8_t(1)      0xf85e4                     
+[237]                 '?' (0xff)  uint8_t(1)      0xf85e5                     
+[238]                 '?' (0xff)  uint8_t(1)      0xf85e6                     
+[239]                 '?' (0xff)  uint8_t(1)      0xf85e7                     
+[240]                 '?' (0xff)  uint8_t(1)      0xf85e8                     
+[241]                 '?' (0xff)  uint8_t(1)      0xf85e9                     
+[242]                 '?' (0xff)  uint8_t(1)      0xf85ea                     
+[243]                 '?' (0xff)  uint8_t(1)      0xf85eb                     
+[244]                 '?' (0xff)  uint8_t(1)      0xf85ec                     
+[245]                 '?' (0xff)  uint8_t(1)      0xf85ed                     
+[246]                 '?' (0xff)  uint8_t(1)      0xf85ee                     
+[247]                 '?' (0xff)  uint8_t(1)      0xf85ef                     
+[248]                 '?' (0xff)  uint8_t(1)      0xf85f0                     
+[249]                 '?' (0xff)  uint8_t(1)      0xf85f1                     
+[250]                 '?' (0xff)  uint8_t(1)      0xf85f2                     
+[251]                 '?' (0xff)  uint8_t(1)      0xf85f3                     
+[252]                 'O' (0x4f)  uint8_t(1)      0xf85f4                     
+[253]                 '?' (0x93)  uint8_t(1)      0xf85f5                     
+[254]                 ' ' (0x00)  uint8_t(1)      0xf85f6                     
+[255]                 ' ' (0x00)  uint8_t(1)      0xf85f7                     
+
+
+03 00 00 00 09 00 1E 00 11 00 1E 00 80 00 0A 00
+ 0A 00 19 00 01 00 E6 07 31 32 33 34 35 36 00 FF
+ 05 00 1E 00 00 00 2B FF 05 00 1E 00 68 74 74 70
+ 73 3A 2F 2F 61 70 69 2E 73 6E 61 69 6C 65 63 6C
+ 6F 75 64 2E 63 6F 6D 2F 64 65 76 69 63 65 2F 72
+ 66 69 64 2F 38 36 31 30 37 35 30 32 34 39 39 31
+ 34 36 35 2F 30 38 39 33 35 32 30 31 36 34 31 34
+ 30 30 36 36 32 30 32 36 00 FF FF FF FF FF FF FF
+ FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ FF FF FF FF FF FF FF FF FF FF FF FF 6A 69 6F 6E
+ 65 74 00 FF FF FF FF FF FF FF FF FF FF FF 01 00
+ 01 00 FF FF FF FF FF FF 00 00 FF FF FF FF FF FF
+ FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
+ FF FF FF FF FF FF FF FF FF FF FF FF
