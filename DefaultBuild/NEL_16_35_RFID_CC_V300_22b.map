@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (W3.03.00 )             25-Oct-2022 19:58:52
+Renesas Optimizing Linker (W3.03.00 )             31-Oct-2022 13:50:52
 
 *** Options ***
 
@@ -167,15 +167,15 @@ SECTION                            START      END         SIZE   ALIGN
 .SLIB
                                   00008a84  0000ac51      21ce   1
 .textf
-                                  0000ac52  000119d4      6d83   1
+                                  0000ac52  000119f2      6da1   1
 .constf
-                                  000119d6  000119e9        14   2
+                                  000119f4  00011a07        14   2
 .data
-                                  000119ea  00011aad        c4   2
+                                  00011a08  00011acb        c4   2
 .sdata
-                                  00011aae  00011aae         0   2
+                                  00011acc  00011acc         0   2
 PFDL_COD
-                                  00011aae  00011b3b        8e   2
+                                  00011acc  00011b59        8e   2
 .monitor2
                                   0007fe00  0007ffff       200   1
 .dataR
@@ -191,7 +191,7 @@ PFDL_COD
 
 RAMDATA SECTION:  00004ce8 Byte(s)
 ROMDATA SECTION:  00004fb6 Byte(s)
-PROGRAM SECTION:  00009ce9 Byte(s)
+PROGRAM SECTION:  00009d07 Byte(s)
 
 *** Symbol List ***
 
@@ -1037,7 +1037,7 @@ FILE=DefaultBuild\gsm_gprs.obj
   _u8_Get_CCID_IMEI
                                   0000d16d        b5   func ,g         2
   _u8_GSM_GPRS_reception_Handler
-                                  0000d222       67c   func ,g        76
+                                  0000d222       67c   func ,g        78
 FILE=DefaultBuild\interval_timer.obj
                                   0000d89e  0000dbb4       317
   _v_Scheduler
@@ -1157,93 +1157,93 @@ FILE=DefaultBuild\USB_Config.obj
   _clk_fun
                                   00010347        8c   func ,g         b
 FILE=DefaultBuild\MQTT.obj
-                                  000103d3  000119d4      1602
+                                  000103d3  000119f2      1620
   _u8_Wait_For_mqtt_Connection
-                                  000103d3        77   func ,g         3
+                                  000103d3        95   func ,g         3
   _Subscribe_to_AWS_Topics
-                                  0001044a        c2   func ,g         1
+                                  00010468        c2   func ,g         1
   _Publish_Handshake
-                                  0001050c       1fb   func ,g         2
+                                  0001052a       1fb   func ,g         2
   _AWS_Thing_Provisioning
-                                  00010707       143   func ,g         1
+                                  00010725       143   func ,g         1
   _Registration_request
-                                  0001084a       1ba   func ,g         1
+                                  00010868       1ba   func ,g         1
   _MQTT_Reception_Handler
-                                  00010a04       27e   func ,g         2
+                                  00010a22       27e   func ,g         2
   _u8_MQTT_PDP_Activate
-                                  00010c82        67   func ,g         0
+                                  00010ca0        67   func ,g         0
   _Config_Acknowledgement
-                                  00010ce9       1e0   func ,g         2
+                                  00010d07       1e0   func ,g         2
   _OTA_Acknowledgement
-                                  00010ec9       1d1   func ,g         1
+                                  00010ee7       1d1   func ,g         1
   _Mqtt_SSL_Update_to_RAM
-                                  0001109a       18c   func ,g         1
+                                  000110b8       18c   func ,g         1
   _Mqtt_SSL_Config
-                                  00011226        f7   func ,g         3
+                                  00011244        f7   func ,g         3
   _Provisioning_And_Registration
-                                  0001131d       3ee   func ,g         2
+                                  0001133b       3ee   func ,g         2
   _Rails_registration
-                                  0001170b       269   func ,g         2
+                                  00011729       269   func ,g         2
   _Subscribe_to_Rails_Topic
-                                  00011974        61   func ,g         1
+                                  00011992        61   func ,g         1
 
 SECTION=.constf
 FILE=_REL_print
-                                  000119d6  000119e9        14
+                                  000119f4  00011a07        14
 
 SECTION=.data
 FILE=DefaultBuild\r_main.obj
-                                  000119ea  000119ee         5
+                                  00011a08  00011a0c         5
 FILE=DefaultBuild\adc.obj
-                                  000119f0  000119f1         2
+                                  00011a0e  00011a0f         2
 FILE=DefaultBuild\Battery_measure.obj
-                                  000119f2  000119fb         a
+                                  00011a10  00011a19         a
 FILE=DefaultBuild\EEPROM.obj
-                                  000119fc  000119fd         2
+                                  00011a1a  00011a1b         2
 FILE=DefaultBuild\gsm_gprs.obj
-                                  000119fe  00011a39        3c
+                                  00011a1c  00011a57        3c
 FILE=DefaultBuild\interval_timer.obj
-                                  00011a3a  00011a41         8
+                                  00011a58  00011a5f         8
 FILE=DefaultBuild\mainhandler.obj
-                                  00011a42  00011a70        2f
+                                  00011a60  00011a8e        2f
 FILE=DefaultBuild\RFID.obj
-                                  00011a72  00011a78         7
+                                  00011a90  00011a96         7
 FILE=DefaultBuild\USB_Config.obj
-                                  00011a7a  00011a9a        21
+                                  00011a98  00011ab8        21
 FILE=DefaultBuild\MQTT.obj
-                                  00011a9c  00011aab        10
+                                  00011aba  00011ac9        10
 FILE=errno
-                                  00011aac  00011aad         2
+                                  00011aca  00011acb         2
 
 SECTION=PFDL_COD
 FILE=pfdl
-                                  00011aae  00011b3b        8e
+                                  00011acc  00011b59        8e
   _PFDL_Open
-                                  00011aae         0   none ,g         7
+                                  00011acc         0   none ,g         7
   PFDL_Open
-                                  00011aae         0   none ,g         0
+                                  00011acc         0   none ,g         0
   _PFDL_Execute
-                                  00011ac9         0   none ,g         7
+                                  00011ae7         0   none ,g         7
   PFDL_Execute
-                                  00011ac9         0   none ,g         0
+                                  00011ae7         0   none ,g         0
   PFDL_Execute_firmware
-                                  00011aff         0   none ,l         1
+                                  00011b1d         0   none ,l         1
   PFDL_Execute_erase
-                                  00011b09         0   none ,l         1
+                                  00011b27         0   none ,l         1
   PFDL_Execute_read
-                                  00011b1a         0   none ,l         1
+                                  00011b38         0   none ,l         1
   PFDL_Execute_read_next
-                                  00011b1e         0   none ,l         1
+                                  00011b3c         0   none ,l         1
   PFDL_Execute_exit
-                                  00011b29         0   none ,l         1
+                                  00011b47         0   none ,l         1
   _PFDL_Handler
-                                  00011b2a         0   none ,g         7
+                                  00011b48         0   none ,g         7
   PFDL_Handler
-                                  00011b2a         0   none ,g         0
+                                  00011b48         0   none ,g         0
   _PFDL_Close
-                                  00011b30         0   none ,g         7
+                                  00011b4e         0   none ,g         7
   PFDL_Close
-                                  00011b30         0   none ,g         0
+                                  00011b4e         0   none ,g         0
 
 SECTION=.monitor2
 FILE=rlink_generates_02
@@ -1869,23 +1869,23 @@ FILE=rlink_generates_05
   __s.textf
                                   0000ac52         0   none ,g         0
   __e.textf
-                                  000119d5         0   none ,g         0
+                                  000119f3         0   none ,g         0
   __s.const
                                   00003200         0   none ,g         0
   __e.const
                                   00007e46         0   none ,g         0
   __s.constf
-                                  000119d6         0   none ,g         0
+                                  000119f4         0   none ,g         0
   __e.constf
-                                  000119ea         0   none ,g         0
+                                  00011a08         0   none ,g         0
   __s.data
-                                  000119ea         0   none ,g         0
+                                  00011a08         0   none ,g         0
   __e.data
-                                  00011aae         0   none ,g         0
+                                  00011acc         0   none ,g         0
   __s.sdata
-                                  00011aae         0   none ,g         0
+                                  00011acc         0   none ,g         0
   __e.sdata
-                                  00011aae         0   none ,g         0
+                                  00011acc         0   none ,g         0
   __s.bss
                                   000f84c4         0   none ,g         0
   __e.bss
@@ -1915,9 +1915,9 @@ FILE=rlink_generates_05
   __e.jtext_AT3000
                                   000030cc         0   none ,g         0
   __sPFDL_COD
-                                  00011aae         0   none ,g         0
+                                  00011acc         0   none ,g         0
   __ePFDL_COD
-                                  00011b3c         0   none ,g         0
+                                  00011b5a         0   none ,g         0
   __s.option_byte
                                   000000c0         0   none ,g         0
   __e.option_byte
@@ -2236,21 +2236,21 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(00010351:.textf)
                                           0031(00010354:.textf)
                                           0031(0001036b:.textf)
-                                          0034(00010517:.textf)
-                                          0034(00010537:.textf)
-                                          0034(00010606:.textf)
-                                          0034(00010626:.textf)
-                                          0034(00010824:.textf)
-                                          0034(0001082a:.textf)
-                                          0034(00010831:.textf)
-                                          0034(00010835:.textf)
-                                          0034(00010854:.textf)
-                                          0034(00010914:.textf)
-                                          0034(00010a9d:.textf)
-                                          0034(00010aa3:.textf)
-                                          0034(00010aaa:.textf)
-                                          0034(00010aae:.textf)
-                                          0034(00010bb7:.textf)
+                                          0034(00010535:.textf)
+                                          0034(00010555:.textf)
+                                          0034(00010624:.textf)
+                                          0034(00010644:.textf)
+                                          0034(00010842:.textf)
+                                          0034(00010848:.textf)
+                                          0034(0001084f:.textf)
+                                          0034(00010853:.textf)
+                                          0034(00010872:.textf)
+                                          0034(00010932:.textf)
+                                          0034(00010abb:.textf)
+                                          0034(00010ac1:.textf)
+                                          0034(00010ac8:.textf)
+                                          0034(00010acc:.textf)
+                                          0034(00010bd5:.textf)
                  _u8_Configuration_mode
                                  000f85c4 0003(0000ad3a:.textf)
                                           0003(0000ad5f:.textf)
@@ -2326,19 +2326,19 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0011(0000af5b:.textf)
                                           0026(0000e64b:.textf)
                                           0031(0000fc95:.textf)
-                                          0034(00010b7d:.textf)
+                                          0034(00010b9b:.textf)
                  _R_UART1_Start
                                  0000b131 0003(0000acf1:.textf)
                                           0026(0000e64f:.textf)
                                           0031(0000fc99:.textf)
-                                          0034(00010b81:.textf)
+                                          0034(00010b9f:.textf)
                  _R_UART1_Stop
                                  0000b159 0024(0000d100:.textf)
                  _R_UART1_Receive
                                  0000b178 0003(0000acf9:.textf)
                                           0012(0000b4bb:.textf)
                                           0026(0000e657:.textf)
-                                          0034(00010b89:.textf)
+                                          0034(00010ba7:.textf)
                  _R_UART1_Send
                                  0000b1a4 0030(0000f2cd:.textf)
                  _R_SAU1_Create
@@ -2449,7 +2449,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0012(0000b4b0:.textf)
                                           0012(0000b4b8:.textf)
                                           0026(0000e654:.textf)
-                                          0034(00010b86:.textf)
+                                          0034(00010ba4:.textf)
                  _usb_rx_data
                                  000f85e5 0003(0000acab:.textf)
                                           0012(0000b57e:.textf)
@@ -2499,7 +2499,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  0000b6b3 0003(0000aca2:.textf)
                  _R_RTC_Stop
                                  0000b6bd 0026(0000e15f:.textf)
-                                          0034(00010c28:.textf)
+                                          0034(00010c46:.textf)
                  _R_RTC_Get_CounterValue
                                  0000b6c7 0029(0000f251:.textf)
                  _R_RTC_Set_CounterValue
@@ -2510,7 +2510,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  0000b8c1 0003(0000acba:.textf)
                                           0026(0000e15b:.textf)
                                           0029(0000f1b0:.textf)
-                                          0034(00010c24:.textf)
+                                          0034(00010c42:.textf)
 0018 r_cg_rtc_user
      SECTION=.textf
                  _r_rtc_interrupt
@@ -2574,8 +2574,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                  _u16_battery_charge
                                  000f840c 0022(0000ba85:.textf)
                                           0024(0000cc3f:.textf)
-                                          0034(00010532:.textf)
-                                          0034(00010621:.textf)
+                                          0034(00010550:.textf)
+                                          0034(0001063f:.textf)
                  _u8_get_battery_status
                                  000f840e 0022(0000b99b:.textf)
                                           0022(0000ba92:.textf)
@@ -2600,8 +2600,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000e36e:.textf)
                                           0031(0000fbdd:.textf)
                                           0031(000101c4:.textf)
-                                          0034(0001083c:.textf)
-                                          0034(00010ab5:.textf)
+                                          0034(0001085a:.textf)
+                                          0034(00010ad3:.textf)
                  _Erase_RFID_Data_Flash
                                  0000bbcc 0003(0000ad20:.textf)
                                           0023(0000bc77:.textf)
@@ -2610,17 +2610,17 @@ No   Unit Name   Global.Symbol   Location External Infomation
                  _v_Write_RFID_DF_data
                                  0000bc5c 0026(0000e5b7:.textf)
                  _v_Write_Cert_DF_data_flash
-                                 0000bd25 0034(000114b9:.textf)
-                                          0034(00011620:.textf)
+                                 0000bd25 0034(000114d7:.textf)
+                                          0034(0001163e:.textf)
                  _Erase_Cert_Data_Flash
-                                 0000be90 0034(00011378:.textf)
+                                 0000be90 0034(00011396:.textf)
      SECTION=.dataR
                  _Error
                                  000f8412
                  _write_success
                                  000f8413 0023(0000be8b:.textf)
-                                          0034(000114c0:.textf)
-                                          0034(00011627:.textf)
+                                          0034(000114de:.textf)
+                                          0034(00011645:.textf)
      SECTION=.data
 0024 gsm_gprs
      SECTION=.textf
@@ -2636,20 +2636,20 @@ No   Unit Name   Global.Symbol   Location External Infomation
                  _u8_HTTP_Config_TCP
                                  0000bf82 0024(0000c243:.textf)
                  _u8_HTTP_Open
-                                 0000bfdf 0034(00010bd5:.textf)
+                                 0000bfdf 0034(00010bf3:.textf)
                  _u8_HTTP_GET
-                                 0000c044 0034(00010c0e:.textf)
+                                 0000c044 0034(00010c2c:.textf)
                  _u8_GSM_PDP_Activate
                                  0000c08c 0024(0000c255:.textf)
                  _u8_GSM_SSL_Config
                                  0000c170
                  _u8_GSM_TCP_Activate
-                                 0000c22a 0034(00010bba:.textf)
+                                 0000c22a 0034(00010bd8:.textf)
                  _u8_Gsm_Wait_For_AT_response
                                  0000c260 0003(0000ad14:.textf)
                                           0024(0000c591:.textf)
                                           0024(0000cb93:.textf)
-                                          0034(00010b95:.textf)
+                                          0034(00010bb3:.textf)
                  _u8_Network_Select
                                  0000c2a9
                  _u8_Network_CFG
@@ -2662,7 +2662,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                  _u8_GPRS_Init
                                  0000c587 0024(0000cb38:.textf)
                                           0026(0000e6b4:.textf)
-                                          0034(00010ba3:.textf)
+                                          0034(00010bc1:.textf)
                  _u8_Get_Network_Signal_Strength
                                  0000c65c 0026(0000e792:.textf)
                  _u8_Get_Network_Time
@@ -2671,7 +2671,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  0000caf9 0003(0000acfd:.textf)
                                           0003(0000ad18:.textf)
                                           0024(0000cb3e:.textf)
-                                          0034(00011730:.textf)
+                                          0034(0001174e:.textf)
                  _GSM_Initial_Configuration
                                  0000cb30 0003(0000ad06:.textf)
                  _RTC_Update_To_GSM
@@ -2689,18 +2689,18 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000cb35:.textf)
                                           0026(0000e65b:.textf)
                                           0031(0000fc9d:.textf)
-                                          0034(00010b8d:.textf)
+                                          0034(00010bab:.textf)
                  _v_Gsm_Power_Down
                                  0000d0ff 0003(0000ad1c:.textf)
                                           0024(0000cb7f:.textf)
                                           0026(0000e974:.textf)
                                           0031(0000fcfc:.textf)
-                                          0034(00010b79:.textf)
+                                          0034(00010b97:.textf)
                  _v_GSM_Timeout_Handler
                                  0000d12d 0025(0000d986:.textf)
                  _u8_Get_CCID_IMEI
                                  0000d16d 0024(0000cb3b:.textf)
-                                          0034(0001171c:.textf)
+                                          0034(0001173a:.textf)
                  _u8_GSM_GPRS_reception_Handler
                                  0000d222 0024(0000bf93:.textf)
                                           0024(0000bfa9:.textf)
@@ -2762,64 +2762,66 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000e907:.textf)
                                           0034(000103e8:.textf)
                                           0034(000103f2:.textf)
-                                          0034(00010436:.textf)
-                                          0034(00010440:.textf)
-                                          0034(0001048a:.textf)
-                                          0034(000104cc:.textf)
-                                          0034(00010600:.textf)
-                                          0034(000106b5:.textf)
-                                          0034(000106c6:.textf)
-                                          0034(000106d7:.textf)
-                                          0034(000106e8:.textf)
-                                          0034(000106f9:.textf)
+                                          0034(00010401:.textf)
+                                          0034(00010410:.textf)
+                                          0034(00010454:.textf)
+                                          0034(0001045e:.textf)
+                                          0034(000104a8:.textf)
+                                          0034(000104ea:.textf)
+                                          0034(0001061e:.textf)
+                                          0034(000106d3:.textf)
+                                          0034(000106e4:.textf)
+                                          0034(000106f5:.textf)
+                                          0034(00010706:.textf)
                                           0034(00010717:.textf)
-                                          0034(00010809:.textf)
-                                          0034(0001081c:.textf)
-                                          0034(0001090c:.textf)
-                                          0034(00010997:.textf)
-                                          0034(000109aa:.textf)
-                                          0034(000109bd:.textf)
-                                          0034(000109d0:.textf)
-                                          0034(000109e3:.textf)
-                                          0034(00010bfc:.textf)
-                                          0034(00010c93:.textf)
-                                          0034(00010cac:.textf)
-                                          0034(00010cc5:.textf)
-                                          0034(00010cde:.textf)
-                                          0034(00010d86:.textf)
-                                          0034(00010e65:.textf)
-                                          0034(00010f5d:.textf)
-                                          0034(00011036:.textf)
-                                          0034(000110c0:.textf)
-                                          0034(000110f5:.textf)
-                                          0034(0001112c:.textf)
-                                          0034(00011169:.textf)
-                                          0034(000111a0:.textf)
-                                          0034(000111da:.textf)
-                                          0034(0001121a:.textf)
-                                          0034(00011237:.textf)
-                                          0034(00011251:.textf)
-                                          0034(0001126b:.textf)
-                                          0034(00011285:.textf)
-                                          0034(0001129f:.textf)
-                                          0034(000112b6:.textf)
-                                          0034(000112cd:.textf)
-                                          0034(000112e4:.textf)
-                                          0034(000112fb:.textf)
-                                          0034(00011312:.textf)
-                                          0034(000116b7:.textf)
-                                          0034(000116cc:.textf)
-                                          0034(000116dd:.textf)
-                                          0034(000116ee:.textf)
-                                          0034(0001172c:.textf)
-                                          0034(00011740:.textf)
-                                          0034(0001176b:.textf)
-                                          0034(000117a4:.textf)
-                                          0034(000117db:.textf)
-                                          0034(00011828:.textf)
-                                          0034(0001189d:.textf)
-                                          0034(000118ea:.textf)
-                                          0034(000119c4:.textf)
+                                          0034(00010735:.textf)
+                                          0034(00010827:.textf)
+                                          0034(0001083a:.textf)
+                                          0034(0001092a:.textf)
+                                          0034(000109b5:.textf)
+                                          0034(000109c8:.textf)
+                                          0034(000109db:.textf)
+                                          0034(000109ee:.textf)
+                                          0034(00010a01:.textf)
+                                          0034(00010c1a:.textf)
+                                          0034(00010cb1:.textf)
+                                          0034(00010cca:.textf)
+                                          0034(00010ce3:.textf)
+                                          0034(00010cfc:.textf)
+                                          0034(00010da4:.textf)
+                                          0034(00010e83:.textf)
+                                          0034(00010f7b:.textf)
+                                          0034(00011054:.textf)
+                                          0034(000110de:.textf)
+                                          0034(00011113:.textf)
+                                          0034(0001114a:.textf)
+                                          0034(00011187:.textf)
+                                          0034(000111be:.textf)
+                                          0034(000111f8:.textf)
+                                          0034(00011238:.textf)
+                                          0034(00011255:.textf)
+                                          0034(0001126f:.textf)
+                                          0034(00011289:.textf)
+                                          0034(000112a3:.textf)
+                                          0034(000112bd:.textf)
+                                          0034(000112d4:.textf)
+                                          0034(000112eb:.textf)
+                                          0034(00011302:.textf)
+                                          0034(00011319:.textf)
+                                          0034(00011330:.textf)
+                                          0034(000116d5:.textf)
+                                          0034(000116ea:.textf)
+                                          0034(000116fb:.textf)
+                                          0034(0001170c:.textf)
+                                          0034(0001174a:.textf)
+                                          0034(0001175e:.textf)
+                                          0034(00011789:.textf)
+                                          0034(000117c2:.textf)
+                                          0034(000117f9:.textf)
+                                          0034(00011846:.textf)
+                                          0034(000118bb:.textf)
+                                          0034(00011908:.textf)
+                                          0034(000119e2:.textf)
      SECTION=.dataR
                  _u8_GSM_Status
                                  000f8414 0024(0000d0fb:.textf)
@@ -2861,9 +2863,9 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  000f8422 0024(0000cf9d:.textf)
                                           0024(0000cfc9:.textf)
                                           0024(0000cfd0:.textf)
-                                          0034(000104dd:.textf)
-                                          0034(000104fe:.textf)
-                                          0034(000116c5:.textf)
+                                          0034(000104fb:.textf)
+                                          0034(0001051c:.textf)
+                                          0034(000116e3:.textf)
                  _u8_Gsm_Rx_Pkt_Counter
                                  000f8423 0024(0000cff8:.textf)
                                           0024(0000d00b:.textf)
@@ -2877,11 +2879,11 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000d0ac:.textf)
                                           0024(0000d0b5:.textf)
                                           0024(0000d342:.textf)
-                                          0034(00010989:.textf)
-                                          0034(00010eb4:.textf)
-                                          0034(00010ebe:.textf)
-                                          0034(00011085:.textf)
-                                          0034(0001108f:.textf)
+                                          0034(000109a7:.textf)
+                                          0034(00010ed2:.textf)
+                                          0034(00010edc:.textf)
+                                          0034(000110a3:.textf)
+                                          0034(000110ad:.textf)
                  _u8_Gsm_Rx_Status_Counter
                                  000f8424 0024(0000d0b8:.textf)
                                           0024(0000d248:.textf)
@@ -3013,10 +3015,10 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000c6f4:.textf)
                                           0024(0000cc39:.textf)
                                           0024(0000cc3c:.textf)
-                                          0034(00010528:.textf)
-                                          0034(0001052d:.textf)
-                                          0034(00010617:.textf)
-                                          0034(0001061c:.textf)
+                                          0034(00010546:.textf)
+                                          0034(0001054b:.textf)
+                                          0034(00010635:.textf)
+                                          0034(0001063a:.textf)
                  _u16_CA0_length
                                  000f843c 0024(0000cd82:.textf)
                                           0024(0000cdc3:.textf)
@@ -3030,8 +3032,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000cfd6:.textf)
                                           0024(0000d32e:.textf)
                                           0024(0000d33b:.textf)
-                                          0034(000104da:.textf)
-                                          0034(00010501:.textf)
+                                          0034(000104f8:.textf)
+                                          0034(0001051f:.textf)
      SECTION=.bss
                  _vu8_Gsm_Rx_Buffer
                                  000f85e8 0024(0000c300:.textf)
@@ -3219,36 +3221,36 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  000fa3ba 0024(0000d1f8:.textf)
                                           0024(0000d1ff:.textf)
                                           0024(0000d205:.textf)
-                                          0034(0001056e:.textf)
-                                          0034(0001065d:.textf)
-                                          0034(0001074b:.textf)
-                                          0034(000107d6:.textf)
-                                          0034(00010883:.textf)
-                                          0034(00010943:.textf)
+                                          0034(0001058c:.textf)
+                                          0034(0001067b:.textf)
+                                          0034(00010769:.textf)
+                                          0034(000107f4:.textf)
+                                          0034(000108a1:.textf)
+                                          0034(00010961:.textf)
                  _IMEI_num
                                  000fa3d8 0024(0000d1a5:.textf)
                                           0024(0000d1af:.textf)
                                           0026(0000dea8:.textf)
                                           0026(0000dfee:.textf)
-                                          0034(0001040a:.textf)
-                                          0034(00010565:.textf)
-                                          0034(000105cf:.textf)
-                                          0034(00010654:.textf)
-                                          0034(00010742:.textf)
-                                          0034(000107cd:.textf)
-                                          0034(00010879:.textf)
-                                          0034(000108df:.textf)
-                                          0034(00010939:.textf)
-                                          0034(00010d59:.textf)
-                                          0034(00010e38:.textf)
-                                          0034(00010f30:.textf)
-                                          0034(00011009:.textf)
-                                          0034(00011991:.textf)
+                                          0034(00010428:.textf)
+                                          0034(00010583:.textf)
+                                          0034(000105ed:.textf)
+                                          0034(00010672:.textf)
+                                          0034(00010760:.textf)
+                                          0034(000107eb:.textf)
+                                          0034(00010897:.textf)
+                                          0034(000108fd:.textf)
+                                          0034(00010957:.textf)
+                                          0034(00010d77:.textf)
+                                          0034(00010e56:.textf)
+                                          0034(00010f4e:.textf)
+                                          0034(00011027:.textf)
+                                          0034(000119af:.textf)
                  _clock
                                  000fa3f6 0031(000103b7:.textf)
                                           0031(000103cc:.textf)
-                                          0034(00010896:.textf)
-                                          0034(00010956:.textf)
+                                          0034(000108b4:.textf)
+                                          0034(00010974:.textf)
      SECTION=.const
      SECTION=.data
 0025 interval_timer
@@ -3286,40 +3288,40 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0028(0000ed9e:.textf)
                                           0031(0000fc7f:.textf)
                                           0031(0000fcdc:.textf)
-                                          0034(00010482:.textf)
-                                          0034(00010493:.textf)
-                                          0034(000104c4:.textf)
-                                          0034(000104e3:.textf)
-                                          0034(000106ad:.textf)
-                                          0034(000106be:.textf)
-                                          0034(000106cf:.textf)
-                                          0034(000106e0:.textf)
-                                          0034(000106f1:.textf)
-                                          0034(00010722:.textf)
-                                          0034(000107ad:.textf)
-                                          0034(00010814:.textf)
-                                          0034(0001098f:.textf)
-                                          0034(000109a2:.textf)
-                                          0034(000109b5:.textf)
-                                          0034(000109c8:.textf)
-                                          0034(000109db:.textf)
-                                          0034(00010b9c:.textf)
-                                          0034(00010bce:.textf)
+                                          0034(000104a0:.textf)
+                                          0034(000104b1:.textf)
+                                          0034(000104e2:.textf)
+                                          0034(00010501:.textf)
+                                          0034(000106cb:.textf)
+                                          0034(000106dc:.textf)
+                                          0034(000106ed:.textf)
+                                          0034(000106fe:.textf)
+                                          0034(0001070f:.textf)
+                                          0034(00010740:.textf)
+                                          0034(000107cb:.textf)
+                                          0034(00010832:.textf)
+                                          0034(000109ad:.textf)
+                                          0034(000109c0:.textf)
+                                          0034(000109d3:.textf)
+                                          0034(000109e6:.textf)
+                                          0034(000109f9:.textf)
+                                          0034(00010bba:.textf)
                                           0034(00010bec:.textf)
                                           0034(00010c0a:.textf)
-                                          0034(00010c20:.textf)
-                                          0034(00010c9c:.textf)
-                                          0034(00010cb5:.textf)
-                                          0034(00010cce:.textf)
-                                          0034(000116af:.textf)
-                                          0034(000116d5:.textf)
-                                          0034(000116e6:.textf)
-                                          0034(000117ec:.textf)
-                                          0034(000118ae:.textf)
-                                          0034(0001195e:.textf)
-                                          0034(0001196a:.textf)
-                                          0034(000119bc:.textf)
-                                          0034(000119cd:.textf)
+                                          0034(00010c28:.textf)
+                                          0034(00010c3e:.textf)
+                                          0034(00010cba:.textf)
+                                          0034(00010cd3:.textf)
+                                          0034(00010cec:.textf)
+                                          0034(000116cd:.textf)
+                                          0034(000116f3:.textf)
+                                          0034(00011704:.textf)
+                                          0034(0001180a:.textf)
+                                          0034(000118cc:.textf)
+                                          0034(0001197c:.textf)
+                                          0034(00011988:.textf)
+                                          0034(000119da:.textf)
+                                          0034(000119eb:.textf)
      SECTION=.dataR
                  _u16_Delay_ms
                                  000f8450 0025(0000d8a0:.textf)
@@ -3381,8 +3383,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000e5d5:.textf)
                                           0031(0000fbd2:.textf)
                                           0031(000101b9:.textf)
-                                          0034(0001082d:.textf)
-                                          0034(00010aa6:.textf)
+                                          0034(0001084b:.textf)
+                                          0034(00010ac4:.textf)
                  _Reload_configuration
                                  0000dbfa 0003(0000acbe:.textf)
                  _Read_Dconfig_Data_Flash
@@ -3392,9 +3394,9 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  0000dd4c 0026(0000ded0:.textf)
                                           0026(0000e5cc:.textf)
                  _Read_Cert_Data_Flash
-                                 0000dd97 0034(00011714:.textf)
+                                 0000dd97 0034(00011732:.textf)
                  _Read_Cert_Data_Flash2
-                                 0000ddf3 0034(00011718:.textf)
+                                 0000ddf3 0034(00011736:.textf)
                  _v_GSM_Data_Format_Send
                                  0000de4f 0024(0000ccca:.textf)
                                           0026(0000e83f:.textf)
@@ -3460,8 +3462,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0023(0000bbbb:.textf)
                                           0023(0000bbc4:.textf)
                                           0026(0000dcd1:.textf)
-                                          0034(00010839:.textf)
-                                          0034(00010ab2:.textf)
+                                          0034(00010857:.textf)
+                                          0034(00010ad0:.textf)
                  _u32_RFID_DF_Write_Position
                                  000f845e 0023(0000bc68:.textf)
                                           0023(0000bc6d:.textf)
@@ -3502,8 +3504,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0023(0000bdde:.textf)
                                           0023(0000be72:.textf)
                                           0023(0000be77:.textf)
-                                          0034(000114b0:.textf)
-                                          0034(000114b6:.textf)
+                                          0034(000114ce:.textf)
+                                          0034(000114d4:.textf)
                  _u8_Cert_DF_Read_Ptr
                                  000f8468 0026(0000ddad:.textf)
                                           0026(0000ddc6:.textf)
@@ -3515,8 +3517,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0023(0000be6f:.textf)
                                           0023(0000be82:.textf)
                                           0023(0000be88:.textf)
-                                          0034(00011617:.textf)
-                                          0034(0001161d:.textf)
+                                          0034(00011635:.textf)
+                                          0034(0001163b:.textf)
                  _u8_CertPvt_DF_Read_Ptr
                                  000f846e 0026(0000ddfe:.textf)
                                           0026(0000de22:.textf)
@@ -3793,8 +3795,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  0000eb70 0026(0000e387:.textf)
                  _Reset_MCU
                                  0000ebaa 0026(0000e163:.textf)
-                                          0034(00010c2c:.textf)
-                                          0034(000116fd:.textf)
+                                          0034(00010c4a:.textf)
+                                          0034(0001171b:.textf)
      SECTION=.const
 0028 RFID
      SECTION=.textf
@@ -3976,7 +3978,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  0000f099 0026(0000dca2:.textf)
                                           0026(0000e372:.textf)
                                           0031(0000f822:.textf)
-                                          0034(00010af0:.textf)
+                                          0034(00010b0e:.textf)
                  _BCDToDecimal
                                  0000f206 0029(0000f1d1:.textf)
                                           0029(0000f1da:.textf)
@@ -4132,52 +4134,52 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0000fc51:.textf)
                                           0031(0000fc65:.textf)
                                           0034(000103e0:.textf)
-                                          0034(0001042e:.textf)
-                                          0034(0001047b:.textf)
-                                          0034(000104bd:.textf)
-                                          0034(000104d6:.textf)
-                                          0034(000105f8:.textf)
-                                          0034(000106a6:.textf)
-                                          0034(000107a6:.textf)
-                                          0034(00010801:.textf)
-                                          0034(00010904:.textf)
-                                          0034(00010985:.textf)
-                                          0034(00010bf4:.textf)
-                                          0034(00010c8b:.textf)
-                                          0034(00010ca4:.textf)
-                                          0034(00010cbd:.textf)
-                                          0034(00010cd6:.textf)
-                                          0034(00010d7e:.textf)
-                                          0034(00010dd1:.textf)
-                                          0034(00010e5d:.textf)
-                                          0034(00010eb0:.textf)
-                                          0034(00010f55:.textf)
-                                          0034(00010fa8:.textf)
-                                          0034(0001102e:.textf)
-                                          0034(00011081:.textf)
-                                          0034(000110b8:.textf)
-                                          0034(000110ed:.textf)
-                                          0034(00011161:.textf)
-                                          0034(000111d2:.textf)
-                                          0034(0001122f:.textf)
-                                          0034(00011249:.textf)
-                                          0034(00011263:.textf)
-                                          0034(0001127d:.textf)
-                                          0034(00011297:.textf)
-                                          0034(000112ae:.textf)
-                                          0034(000112c5:.textf)
-                                          0034(000112dc:.textf)
-                                          0034(000112f3:.textf)
-                                          0034(0001130a:.textf)
-                                          0034(000116a8:.textf)
-                                          0034(000116c1:.textf)
-                                          0034(00011724:.textf)
-                                          0034(00011738:.textf)
-                                          0034(00011763:.textf)
-                                          0034(0001179c:.textf)
-                                          0034(0001181b:.textf)
-                                          0034(000118dd:.textf)
-                                          0034(000119b5:.textf)
+                                          0034(0001044c:.textf)
+                                          0034(00010499:.textf)
+                                          0034(000104db:.textf)
+                                          0034(000104f4:.textf)
+                                          0034(00010616:.textf)
+                                          0034(000106c4:.textf)
+                                          0034(000107c4:.textf)
+                                          0034(0001081f:.textf)
+                                          0034(00010922:.textf)
+                                          0034(000109a3:.textf)
+                                          0034(00010c12:.textf)
+                                          0034(00010ca9:.textf)
+                                          0034(00010cc2:.textf)
+                                          0034(00010cdb:.textf)
+                                          0034(00010cf4:.textf)
+                                          0034(00010d9c:.textf)
+                                          0034(00010def:.textf)
+                                          0034(00010e7b:.textf)
+                                          0034(00010ece:.textf)
+                                          0034(00010f73:.textf)
+                                          0034(00010fc6:.textf)
+                                          0034(0001104c:.textf)
+                                          0034(0001109f:.textf)
+                                          0034(000110d6:.textf)
+                                          0034(0001110b:.textf)
+                                          0034(0001117f:.textf)
+                                          0034(000111f0:.textf)
+                                          0034(0001124d:.textf)
+                                          0034(00011267:.textf)
+                                          0034(00011281:.textf)
+                                          0034(0001129b:.textf)
+                                          0034(000112b5:.textf)
+                                          0034(000112cc:.textf)
+                                          0034(000112e3:.textf)
+                                          0034(000112fa:.textf)
+                                          0034(00011311:.textf)
+                                          0034(00011328:.textf)
+                                          0034(000116c6:.textf)
+                                          0034(000116df:.textf)
+                                          0034(00011742:.textf)
+                                          0034(00011756:.textf)
+                                          0034(00011781:.textf)
+                                          0034(000117ba:.textf)
+                                          0034(00011839:.textf)
+                                          0034(000118fb:.textf)
+                                          0034(000119d3:.textf)
                  _v_byte_array_send
                                  0000f334 0024(0000cd66:.textf)
                                           0024(0000ce08:.textf)
@@ -4203,23 +4205,23 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0000f9d3:.textf)
                                           0031(0000fa28:.textf)
                                           0031(0000fbb9:.textf)
-                                          0034(0001110c:.textf)
-                                          0034(00011118:.textf)
-                                          0034(00011124:.textf)
-                                          0034(00011180:.textf)
-                                          0034(0001118c:.textf)
-                                          0034(00011198:.textf)
-                                          0034(000111ee:.textf)
-                                          0034(000111fa:.textf)
-                                          0034(00011206:.textf)
-                                          0034(00011212:.textf)
-                                          0034(000117bb:.textf)
-                                          0034(000117c7:.textf)
-                                          0034(000117d3:.textf)
-                                          0034(00011850:.textf)
-                                          0034(00011895:.textf)
-                                          0034(00011912:.textf)
-                                          0034(00011957:.textf)
+                                          0034(0001112a:.textf)
+                                          0034(00011136:.textf)
+                                          0034(00011142:.textf)
+                                          0034(0001119e:.textf)
+                                          0034(000111aa:.textf)
+                                          0034(000111b6:.textf)
+                                          0034(0001120c:.textf)
+                                          0034(00011218:.textf)
+                                          0034(00011224:.textf)
+                                          0034(00011230:.textf)
+                                          0034(000117d9:.textf)
+                                          0034(000117e5:.textf)
+                                          0034(000117f1:.textf)
+                                          0034(0001186e:.textf)
+                                          0034(000118b3:.textf)
+                                          0034(00011930:.textf)
+                                          0034(00011975:.textf)
      SECTION=.bss
                  _u8_uart0_Tx_Flag
                                  000fa672 0012(0000b3f7:.textf)
@@ -4275,21 +4277,21 @@ No   Unit Name   Global.Symbol   Location External Infomation
                  _v_USB_RX_ISR
                                  0000fd1b 0012(0000b581:.textf)
                  _Update_Configuration
-                                 0000fd79 0034(00010aec:.textf)
+                                 0000fd79 0034(00010b0a:.textf)
                  _Update_restart_time
-                                 000101d8 0034(00010acc:.textf)
+                                 000101d8 0034(00010aea:.textf)
                  _clk_fun
                                  00010347 0026(0000dfb0:.textf)
-                                          0034(00010540:.textf)
-                                          0034(0001062f:.textf)
-                                          0034(00010cfc:.textf)
-                                          0034(00010d8e:.textf)
-                                          0034(00010ddb:.textf)
-                                          0034(00010e6d:.textf)
-                                          0034(00010ed3:.textf)
-                                          0034(00010f65:.textf)
-                                          0034(00010fac:.textf)
-                                          0034(0001103e:.textf)
+                                          0034(0001055e:.textf)
+                                          0034(0001064d:.textf)
+                                          0034(00010d1a:.textf)
+                                          0034(00010dac:.textf)
+                                          0034(00010df9:.textf)
+                                          0034(00010e8b:.textf)
+                                          0034(00010ef1:.textf)
+                                          0034(00010f83:.textf)
+                                          0034(00010fca:.textf)
+                                          0034(0001105c:.textf)
      SECTION=.dataR
                  _u8_USB_Cmd
                                  000f8490 0031(0000f422:.textf)
@@ -4366,7 +4368,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0000fb36:.textf)
                  _update_done_flag
                                  000f84b0 0031(000101c8:.textf)
-                                          0034(00010cf3:.textf)
+                                          0034(00010d11:.textf)
      SECTION=.bss
                  _u8_usb_configration_buffer
                                  000fa676 0031(0000f428:.textf)
@@ -4541,50 +4543,50 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000d3cb:.textf)
                                           0026(0000e7d1:.textf)
                  _Subscribe_to_AWS_Topics
-                                 0001044a 0024(0000cb7b:.textf)
+                                 00010468 0024(0000cb7b:.textf)
                  _Publish_Handshake
-                                 0001050c 0026(0000e049:.textf)
-                                          0034(00010afa:.textf)
+                                 0001052a 0026(0000e049:.textf)
+                                          0034(00010b18:.textf)
                  _AWS_Thing_Provisioning
-                                 00010707 0034(00011701:.textf)
+                                 00010725 0034(0001171f:.textf)
                  _Registration_request
-                                 0001084a 0026(0000e039:.textf)
+                                 00010868 0026(0000e039:.textf)
                  _MQTT_Reception_Handler
-                                 00010a04 0024(0000d356:.textf)
-                                          0034(000109f9:.textf)
+                                 00010a22 0024(0000d356:.textf)
+                                          0034(00010a17:.textf)
                  _u8_MQTT_PDP_Activate
-                                 00010c82
+                                 00010ca0
                  _Config_Acknowledgement
-                                 00010ce9 0034(00010ae9:.textf)
-                                          0034(00010af4:.textf)
+                                 00010d07 0034(00010b07:.textf)
+                                          0034(00010b12:.textf)
                  _OTA_Acknowledgement
-                                 00010ec9 0034(00010b13:.textf)
+                                 00010ee7 0034(00010b31:.textf)
                  _Mqtt_SSL_Update_to_RAM
-                                 0001109a 0024(0000cb5a:.textf)
+                                 000110b8 0024(0000cb5a:.textf)
                  _Mqtt_SSL_Config
-                                 00011226 0024(0000c238:.textf)
+                                 00011244 0024(0000c238:.textf)
                                           0024(0000cb65:.textf)
-                                          0034(00011962:.textf)
+                                          0034(00011980:.textf)
                  _Provisioning_And_Registration
-                                 0001131d 0024(0000d337:.textf)
-                                          0034(000104fb:.textf)
+                                 0001133b 0024(0000d337:.textf)
+                                          0034(00010519:.textf)
                  _Rails_registration
-                                 0001170b 0026(0000e78c:.textf)
-                                          0034(00010ba0:.textf)
+                                 00011729 0026(0000e78c:.textf)
+                                          0034(00010bbe:.textf)
                  _Subscribe_to_Rails_Topic
-                                 00011974 0026(0000e7de:.textf)
+                                 00011992 0026(0000e7de:.textf)
      SECTION=.dataR
                  _MQTT_RECV_FLAG
                                  000f84b2 0024(0000d32b:.textf)
-                                          0034(000104f5:.textf)
-                                          0034(00010a13:.textf)
-                                          0034(00010ab9:.textf)
-                                          0034(00010ad0:.textf)
-                                          0034(00010af7:.textf)
-                                          0034(00010b76:.textf)
-                                          0034(00010dd5:.textf)
-                                          0034(00011354:.textf)
-                                          0034(00011375:.textf)
+                                          0034(00010513:.textf)
+                                          0034(00010a31:.textf)
+                                          0034(00010ad7:.textf)
+                                          0034(00010aee:.textf)
+                                          0034(00010b15:.textf)
+                                          0034(00010b94:.textf)
+                                          0034(00010df3:.textf)
+                                          0034(00011372:.textf)
+                                          0034(00011393:.textf)
                  _MQTT_OPEN_FLAG
                                  000f84b3 0024(0000d455:.textf)
                  _MQTT_STAT_FAIL
@@ -4599,7 +4601,7 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000e884:.textf)
                                           0026(0000e89e:.textf)
                                           0026(0000e8b8:.textf)
-                                          0034(000109ee:.textf)
+                                          0034(00010a0c:.textf)
                  _MQTT_SUB_SUCC_FLAG
                                  000f84b7 0024(0000d5e7:.textf)
                  _MQTT_CONN_SUCCESS_FLAG
@@ -4616,22 +4618,22 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                  000f84bb
                  _PEM_CERT
                                  000f84bc 0023(0000bd37:.textf)
-                                          0034(000114ac:.textf)
-                                          0034(000114bd:.textf)
+                                          0034(000114ca:.textf)
+                                          0034(000114db:.textf)
                  _PVT_CERT
                                  000f84bd 0023(0000bde4:.textf)
-                                          0034(00011613:.textf)
-                                          0034(00011624:.textf)
+                                          0034(00011631:.textf)
+                                          0034(00011642:.textf)
                  _length1
-                                 000f84be 0034(00011752:.textf)
-                                          0034(000117f0:.textf)
-                                          0034(00011859:.textf)
-                                          0034(0001188c:.textf)
+                                 000f84be 0034(00011770:.textf)
+                                          0034(0001180e:.textf)
+                                          0034(00011877:.textf)
+                                          0034(000118aa:.textf)
                  _length2
-                                 000f84c0 0034(0001175c:.textf)
-                                          0034(000118b2:.textf)
-                                          0034(0001191b:.textf)
-                                          0034(0001194e:.textf)
+                                 000f84c0 0034(0001177a:.textf)
+                                          0034(000118d0:.textf)
+                                          0034(00011939:.textf)
+                                          0034(0001196c:.textf)
      SECTION=.bss
                  _Subscribed_data
                                  000fa724 0024(0000cfbe:.textf)
@@ -4642,13 +4644,13 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0000fd88:.textf)
                                           0031(000101df:.textf)
                                           0031(000101e4:.textf)
-                                          0034(000109f6:.textf)
+                                          0034(00010a14:.textf)
                  _Certificate_buffer
                                  000fa8b4 0024(0000cfad:.textf)
                                           0024(0000cfe1:.textf)
                                           0024(0000d334:.textf)
-                                          0034(000104ea:.textf)
-                                          0034(000104f8:.textf)
+                                          0034(00010508:.textf)
+                                          0034(00010516:.textf)
                  _MQT_CMD_RES
                                  000fb854 0024(0000d3ad:.textf)
                                           0024(0000d3c0:.textf)
@@ -4661,47 +4663,47 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000d5c9:.textf)
                                           0024(0000d5dc:.textf)
                  _OTA_HTTP_URL
-                                 000fb86d 0034(00010b6f:.textf)
-                                          0034(00010bd2:.textf)
+                                 000fb86d 0034(00010b8d:.textf)
+                                          0034(00010bf0:.textf)
                  _Parsed_Data
-                                 000fbe49 0034(00010a72:.textf)
+                                 000fbe49 0034(00010a90:.textf)
                  _u8_temp
                                  000fbe7b
                  _u8_SSL_String2
-                                 000fbe94 0034(000110c9:.textf)
-                                          0034(000110ea:.textf)
-                                          0034(0001113d:.textf)
-                                          0034(0001115e:.textf)
-                                          0034(000111ae:.textf)
-                                          0034(000111cf:.textf)
+                                 000fbe94 0034(000110e7:.textf)
+                                          0034(00011108:.textf)
+                                          0034(0001115b:.textf)
+                                          0034(0001117c:.textf)
+                                          0034(000111cc:.textf)
+                                          0034(000111ed:.textf)
                  _New_PEM_Cert_Buffer
                                  000fbec6 0023(0000bd55:.textf)
                                           0026(0000dda3:.textf)
                                           0026(0000ddcb:.textf)
-                                          0034(00011411:.textf)
-                                          0034(00011423:.textf)
-                                          0034(0001142d:.textf)
-                                          0034(00011462:.textf)
-                                          0034(0001146c:.textf)
-                                          0034(000114a3:.textf)
-                                          0034(0001174b:.textf)
-                                          0034(00011875:.textf)
+                                          0034(0001142f:.textf)
+                                          0034(00011441:.textf)
+                                          0034(0001144b:.textf)
+                                          0034(00011480:.textf)
+                                          0034(0001148a:.textf)
+                                          0034(000114c1:.textf)
+                                          0034(00011769:.textf)
+                                          0034(00011893:.textf)
                  _New_Pvt_Cert_Buffer
                                  000fc696 0023(0000be02:.textf)
                                           0026(0000de05:.textf)
                                           0026(0000de27:.textf)
-                                          0034(00011578:.textf)
-                                          0034(0001158a:.textf)
-                                          0034(00011594:.textf)
-                                          0034(000115c9:.textf)
-                                          0034(000115d3:.textf)
-                                          0034(0001160a:.textf)
-                                          0034(00011755:.textf)
-                                          0034(00011937:.textf)
+                                          0034(00011596:.textf)
+                                          0034(000115a8:.textf)
+                                          0034(000115b2:.textf)
+                                          0034(000115e7:.textf)
+                                          0034(000115f1:.textf)
+                                          0034(00011628:.textf)
+                                          0034(00011773:.textf)
+                                          0034(00011955:.textf)
                  _certificateOwnershipToken
-                                 000fce66 0034(00010738:.textf)
-                                          0034(000107c3:.textf)
-                                          0034(00011696:.textf)
+                                 000fce66 0034(00010756:.textf)
+                                          0034(000107e1:.textf)
+                                          0034(000116b4:.textf)
                  _time_buf
                                  000fd03c
      SECTION=.const
@@ -4709,34 +4711,34 @@ No   Unit Name   Global.Symbol   Location External Infomation
 0035 mqtt_ssl
      SECTION=.const
                  _u8_CA1
-                                 00006a82 0034(00011109:.textf)
-                                          0034(000117b8:.textf)
+                                 00006a82 0034(00011127:.textf)
+                                          0034(000117d6:.textf)
                  _u8_CA2
-                                 00006c80 0034(00011115:.textf)
-                                          0034(000117c4:.textf)
+                                 00006c80 0034(00011133:.textf)
+                                          0034(000117e2:.textf)
                  _u8_CA3
-                                 00006e7e 0034(00011121:.textf)
-                                          0034(000117d0:.textf)
+                                 00006e7e 0034(0001113f:.textf)
+                                          0034(000117ee:.textf)
                  _u8_snaile_CRT_buff_1
-                                 0000707c 0034(0001117d:.textf)
+                                 0000707c 0034(0001119b:.textf)
                  _u8_snaile_CRT_buff_2
-                                 0000727a 0034(00011189:.textf)
+                                 0000727a 0034(000111a7:.textf)
                  _u8_snaile_CRT_buff_3
-                                 00007478 0034(00011195:.textf)
+                                 00007478 0034(000111b3:.textf)
                  _u8_snaile_private_key_buff_1
-                                 00007676 0034(000111eb:.textf)
+                                 00007676 0034(00011209:.textf)
                  _u8_snaile_private_key_buff_2
-                                 0000786a 0034(000111f7:.textf)
+                                 0000786a 0034(00011215:.textf)
                  _u8_snaile_private_key_buff_3
-                                 00007a5e 0034(00011203:.textf)
+                                 00007a5e 0034(00011221:.textf)
                  _u8_snaile_private_key_buff_4
-                                 00007c52 0034(0001120f:.textf)
+                                 00007c52 0034(0001122d:.textf)
 0036 pfdl
      SECTION=PFDL_COD
                  PFDL_Open
-                                 00011aae
+                                 00011acc
                  _PFDL_Open
-                                 00011aae 0023(0000baae:.textf)
+                                 00011acc 0023(0000baae:.textf)
                                           0023(0000bb4a:.textf)
                                           0023(0000bbe2:.textf)
                                           0023(0000bc87:.textf)
@@ -4744,9 +4746,9 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0023(0000bdf2:.textf)
                                           0023(0000bea6:.textf)
                  PFDL_Execute
-                                 00011ac9
+                                 00011ae7
                  _PFDL_Execute
-                                 00011ac9 0023(0000baca:.textf)
+                                 00011ae7 0023(0000baca:.textf)
                                           0023(0000bb6c:.textf)
                                           0023(0000bbfe:.textf)
                                           0023(0000bca9:.textf)
@@ -4754,9 +4756,9 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0023(0000be14:.textf)
                                           0023(0000bec4:.textf)
                  PFDL_Handler
-                                 00011b2a
+                                 00011b48
                  _PFDL_Handler
-                                 00011b2a 0023(0000bad2:.textf)
+                                 00011b48 0023(0000bad2:.textf)
                                           0023(0000bb74:.textf)
                                           0023(0000bc06:.textf)
                                           0023(0000bcb1:.textf)
@@ -4764,9 +4766,9 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0023(0000be1c:.textf)
                                           0023(0000becc:.textf)
                  PFDL_Close
-                                 00011b30
+                                 00011b4e
                  _PFDL_Close
-                                 00011b30 0023(0000bb0e:.textf)
+                                 00011b4e 0023(0000bb0e:.textf)
                                           0023(0000bba0:.textf)
                                           0023(0000bc43:.textf)
                                           0023(0000bcdd:.textf)
@@ -4813,37 +4815,37 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000e00b:.textf)
                                           0031(0000f998:.textf)
                                           0031(0001039f:.textf)
-                                          0034(00010422:.textf)
-                                          0034(00010471:.textf)
-                                          0034(000104b3:.textf)
-                                          0034(000105ae:.textf)
-                                          0034(000105ec:.textf)
-                                          0034(0001069d:.textf)
-                                          0034(0001076a:.textf)
-                                          0034(0001079b:.textf)
-                                          0034(000107f5:.textf)
-                                          0034(000108bc:.textf)
-                                          0034(000108f8:.textf)
-                                          0034(0001097c:.textf)
-                                          0034(00010d36:.textf)
-                                          0034(00010d72:.textf)
-                                          0034(00010dc8:.textf)
-                                          0034(00010e15:.textf)
-                                          0034(00010e51:.textf)
-                                          0034(00010ea7:.textf)
-                                          0034(00010f0d:.textf)
-                                          0034(00010f49:.textf)
-                                          0034(00010f9f:.textf)
-                                          0034(00010fe6:.textf)
-                                          0034(00011022:.textf)
-                                          0034(00011078:.textf)
-                                          0034(000110e4:.textf)
-                                          0034(00011158:.textf)
-                                          0034(000111c9:.textf)
-                                          0034(00011791:.textf)
-                                          0034(00011810:.textf)
-                                          0034(000118d2:.textf)
-                                          0034(000119a9:.textf)
+                                          0034(00010440:.textf)
+                                          0034(0001048f:.textf)
+                                          0034(000104d1:.textf)
+                                          0034(000105cc:.textf)
+                                          0034(0001060a:.textf)
+                                          0034(000106bb:.textf)
+                                          0034(00010788:.textf)
+                                          0034(000107b9:.textf)
+                                          0034(00010813:.textf)
+                                          0034(000108da:.textf)
+                                          0034(00010916:.textf)
+                                          0034(0001099a:.textf)
+                                          0034(00010d54:.textf)
+                                          0034(00010d90:.textf)
+                                          0034(00010de6:.textf)
+                                          0034(00010e33:.textf)
+                                          0034(00010e6f:.textf)
+                                          0034(00010ec5:.textf)
+                                          0034(00010f2b:.textf)
+                                          0034(00010f67:.textf)
+                                          0034(00010fbd:.textf)
+                                          0034(00011004:.textf)
+                                          0034(00011040:.textf)
+                                          0034(00011096:.textf)
+                                          0034(00011102:.textf)
+                                          0034(00011176:.textf)
+                                          0034(000111e7:.textf)
+                                          0034(000117af:.textf)
+                                          0034(0001182e:.textf)
+                                          0034(000118f0:.textf)
+                                          0034(000119c7:.textf)
      SECTION=.bss
 0039 strcat
      SECTION=.SLIB
@@ -4857,14 +4859,14 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000df9c:.textf)
                                           0026(0000dfb7:.textf)
                                           0026(0000dfcc:.textf)
-                                          0034(00011426:.textf)
-                                          0034(00011430:.textf)
-                                          0034(00011465:.textf)
-                                          0034(0001146f:.textf)
-                                          0034(0001158d:.textf)
-                                          0034(00011597:.textf)
-                                          0034(000115cc:.textf)
-                                          0034(000115d6:.textf)
+                                          0034(00011444:.textf)
+                                          0034(0001144e:.textf)
+                                          0034(00011483:.textf)
+                                          0034(0001148d:.textf)
+                                          0034(000115ab:.textf)
+                                          0034(000115b5:.textf)
+                                          0034(000115ea:.textf)
+                                          0034(000115f4:.textf)
 0040 strchr
      SECTION=.SLIB
                  _strchr
@@ -4890,16 +4892,16 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(00010231:.textf)
                                           0031(000102be:.textf)
                                           0031(000102da:.textf)
-                                          0034(00010a3b:.textf)
-                                          0034(00010a57:.textf)
-                                          0034(00010b38:.textf)
-                                          0034(00010b54:.textf)
-                                          0034(0001139e:.textf)
-                                          0034(000113ba:.textf)
-                                          0034(00011505:.textf)
-                                          0034(00011521:.textf)
-                                          0034(0001165f:.textf)
-                                          0034(0001167b:.textf)
+                                          0034(00010a59:.textf)
+                                          0034(00010a75:.textf)
+                                          0034(00010b56:.textf)
+                                          0034(00010b72:.textf)
+                                          0034(000113bc:.textf)
+                                          0034(000113d8:.textf)
+                                          0034(00011523:.textf)
+                                          0034(0001153f:.textf)
+                                          0034(0001167d:.textf)
+                                          0034(00011699:.textf)
 0041 strcmp
      SECTION=.SLIB
                  _strcmp
@@ -4927,12 +4929,12 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000d852:.textf)
                                           0024(0000d877:.textf)
                                           0031(0000f87d:.textf)
-                                          0034(00010a81:.textf)
-                                          0034(00010ac4:.textf)
-                                          0034(00010ae1:.textf)
-                                          0034(00010b08:.textf)
-                                          0034(00010c3a:.textf)
-                                          0034(00010c60:.textf)
+                                          0034(00010a9f:.textf)
+                                          0034(00010ae2:.textf)
+                                          0034(00010aff:.textf)
+                                          0034(00010b26:.textf)
+                                          0034(00010c58:.textf)
+                                          0034(00010c7e:.textf)
 0042 strcpy
      SECTION=.SLIB
                  _strcpy
@@ -4945,11 +4947,11 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0000f8c1:.textf)
                                           0031(0000fd90:.textf)
                                           0031(000101ec:.textf)
-                                          0034(00010a75:.textf)
-                                          0034(00010b72:.textf)
-                                          0034(000113db:.textf)
-                                          0034(00011542:.textf)
-                                          0034(00011699:.textf)
+                                          0034(00010a93:.textf)
+                                          0034(00010b90:.textf)
+                                          0034(000113f9:.textf)
+                                          0034(00011560:.textf)
+                                          0034(000116b7:.textf)
 0043 strlen
      SECTION=.SLIB
                  _strlen
@@ -4964,18 +4966,18 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0000fa05:.textf)
                                           0031(0000fa19:.textf)
                                           0031(0000fbaa:.textf)
-                                          0034(000105b6:.textf)
-                                          0034(00010775:.textf)
-                                          0034(000108c4:.textf)
-                                          0034(00010d3e:.textf)
-                                          0034(00010e1d:.textf)
-                                          0034(00010f15:.textf)
-                                          0034(00010fee:.textf)
-                                          0034(0001135f:.textf)
-                                          0034(000114a6:.textf)
-                                          0034(0001160d:.textf)
-                                          0034(0001174e:.textf)
-                                          0034(00011758:.textf)
+                                          0034(000105d4:.textf)
+                                          0034(00010793:.textf)
+                                          0034(000108e2:.textf)
+                                          0034(00010d5c:.textf)
+                                          0034(00010e3b:.textf)
+                                          0034(00010f33:.textf)
+                                          0034(0001100c:.textf)
+                                          0034(0001137d:.textf)
+                                          0034(000114c4:.textf)
+                                          0034(0001162b:.textf)
+                                          0034(0001176c:.textf)
+                                          0034(00011776:.textf)
 0044 strncpy
      SECTION=.SLIB
                  _strncpy
@@ -4989,11 +4991,11 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(0001015f:.textf)
                                           0031(00010228:.textf)
                                           0031(000102d1:.textf)
-                                          0034(00010a4e:.textf)
-                                          0034(00010b4b:.textf)
-                                          0034(000113b1:.textf)
-                                          0034(00011518:.textf)
-                                          0034(00011672:.textf)
+                                          0034(00010a6c:.textf)
+                                          0034(00010b69:.textf)
+                                          0034(000113cf:.textf)
+                                          0034(00011536:.textf)
+                                          0034(00011690:.textf)
 0045 strstr
      SECTION=.SLIB
                  _strstr
@@ -5007,30 +5009,30 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0031(00010132:.textf)
                                           0031(000101f8:.textf)
                                           0031(000102a1:.textf)
-                                          0034(000104ed:.textf)
-                                          0034(00010a21:.textf)
-                                          0034(00010a8e:.textf)
-                                          0034(00010b1b:.textf)
-                                          0034(00010c47:.textf)
-                                          0034(00010c6d:.textf)
-                                          0034(00011381:.textf)
-                                          0034(000114ce:.textf)
-                                          0034(00011635:.textf)
+                                          0034(0001050b:.textf)
+                                          0034(00010a3f:.textf)
+                                          0034(00010aac:.textf)
+                                          0034(00010b39:.textf)
+                                          0034(00010c65:.textf)
+                                          0034(00010c8b:.textf)
+                                          0034(0001139f:.textf)
+                                          0034(000114ec:.textf)
+                                          0034(00011653:.textf)
 0046 strtok
      SECTION=.SLIB
                  _strtok
-                                 00008bf2 0034(00011400:.textf)
-                                          0034(0001144e:.textf)
-                                          0034(0001148d:.textf)
-                                          0034(00011567:.textf)
-                                          0034(000115b5:.textf)
-                                          0034(000115f4:.textf)
+                                 00008bf2 0034(0001141e:.textf)
+                                          0034(0001146c:.textf)
+                                          0034(000114ab:.textf)
+                                          0034(00011585:.textf)
+                                          0034(000115d3:.textf)
+                                          0034(00011612:.textf)
      SECTION=.bss
 0047 memcpy
      SECTION=.RLIB
                  _memcpy
                                  00007e95 0029(0000f1be:.textf)
-                                          0034(00011350:.textf)
+                                          0034(0001136e:.textf)
 0048 memset
      SECTION=.RLIB
                  _memset
@@ -5046,11 +5048,11 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0026(0000de92:.textf)
                                           0028(0000eef2:.textf)
                                           0031(0000fbf6:.textf)
-                                          0034(00011414:.textf)
-                                          0034(000114e6:.textf)
-                                          0034(000114f3:.textf)
-                                          0034(0001157b:.textf)
-                                          0034(0001164d:.textf)
+                                          0034(00011432:.textf)
+                                          0034(00011504:.textf)
+                                          0034(00011511:.textf)
+                                          0034(00011599:.textf)
+                                          0034(0001166b:.textf)
 0049 _COM_fdiv
      SECTION=.RLIB
                  __COM_fdiv
@@ -5095,10 +5097,10 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0024(0000d810:.textf)
                                           0024(0000d834:.textf)
                                           0024(0000d85f:.textf)
-                                          0034(0001186e:.textf)
-                                          0034(00011887:.textf)
-                                          0034(00011930:.textf)
-                                          0034(00011949:.textf)
+                                          0034(0001188c:.textf)
+                                          0034(000118a5:.textf)
+                                          0034(0001194e:.textf)
+                                          0034(00011967:.textf)
 0053 _COM_lmul
      SECTION=.RLIB
                  __COM_lmul
@@ -5125,8 +5127,8 @@ No   Unit Name   Global.Symbol   Location External Infomation
                                           0029(0000f172:.textf)
                                           0029(0000f19b:.textf)
                                           0029(0000f239:.textf)
-                                          0034(0001185f:.textf)
-                                          0034(00011921:.textf)
+                                          0034(0001187d:.textf)
+                                          0034(0001193f:.textf)
                                           0064(00009a4f:.SLIB)
                                           0064(0000a49f:.SLIB)
                                           0081(000083d4:.RLIB)
@@ -5354,23 +5356,23 @@ No   Unit Name   Global.Symbol   Location External Infomation
                  __e.SLIB
                                  0000ac52
                  __e.textf
-                                 000119d5
+                                 000119f3
                  __s.constf
-                                 000119d6
+                                 000119f4
                  __e.constf
-                                 000119ea
+                                 00011a08
                  __s.data
-                                 000119ea
+                                 00011a08
                  __e.data
-                                 00011aae
+                                 00011acc
                  __s.sdata
-                                 00011aae
+                                 00011acc
                  __e.sdata
-                                 00011aae
+                                 00011acc
                  __sPFDL_COD
-                                 00011aae
+                                 00011acc
                  __ePFDL_COD
-                                 00011b3c
+                                 00011b5a
                  __s.monitor2
                                  0007fe00
                  __e.monitor2

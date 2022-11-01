@@ -129,6 +129,16 @@ uint8_t u8_Wait_For_mqtt_Connection(void)
 		u8_Status = u8_GSM_GPRS_reception_Handler(10000);// max 120s needed
 		//v_delay_ms(10000);
 		u8_Status = u8_GSM_GPRS_reception_Handler(15000);
+		if(u8_Status == 0)
+		{
+			u8_Status = u8_GSM_GPRS_reception_Handler(10000);
+			if (u8_Status == 0)
+			{
+				u8_Status = u8_GSM_GPRS_reception_Handler(15000);
+			}
+		}	
+				
+			
 		
 		
 		{

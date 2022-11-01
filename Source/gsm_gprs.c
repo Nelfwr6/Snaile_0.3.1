@@ -670,7 +670,7 @@ uint8_t u8_GPRS_Init(void)
 	//v_uart_str_send("AT+CGDCONT\r\n",GSM_GPRS_CHANNEL);  //arjun
 	u8_Status = u8_GSM_GPRS_reception_Handler(1000);	
 		
-	v_uart_str_send("ATE1\r\n",GSM_GPRS_CHANNEL);  //echo on  //OK
+	v_uart_str_send("ATE0\r\n",GSM_GPRS_CHANNEL);  //echo on  //OK
 	u8_Status = u8_GSM_GPRS_reception_Handler(1000);
 	if(u8_Status != GSM_SUCCESS)
 		return u8_Status;
