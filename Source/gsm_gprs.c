@@ -1433,7 +1433,7 @@ uint8_t u8_Get_CCID_IMEI(void)
 			strcpy((char*)CCID_num,(char*)&vu8_Gsm_Rx_Buffer[u8_Gsm_Rx_Status_Start_Counter][8]);
 			//CCID_num[0]='0';
 			//CCID_num[19]='\0';
-			CCID_num[20]='\0';
+			CCID_num[21]='\0';
 			t = strchr((char*)CCID_num,'\r');
 			if(*t=='\r')
 			{
@@ -1576,15 +1576,16 @@ uint8_t u8_GSM_GPRS_reception_Handler(uint32_t u32_tmo)
 			{
 				u16_i =10;
 				u16_j = 0;
-				while(vu8_Gsm_Rx_Buffer[u16_pkt_num][u16_i] != ',')
+				while(vu8_Gsm_Rx_Buffer[u16_pkt_num][u16_i] != '\r')
 				{
 					MQT_CMD_RES[u16_j] = vu8_Gsm_Rx_Buffer[u16_pkt_num][u16_i];
 					u16_i++;
 					u16_j++;
 				}
 				MQT_CMD_RES[u16_j] = '\0';
-				if(strcmp((char *)MQT_CMD_RES,"0") == 0)
+				if(strcmp((char *)MQT_CMD_RES,"1,0") == 0)
 				{
+					MQTT_OPEN_FLAG = 1 ;
 					u8_status = MQTT_OPEN_FLAG;
 					return 	u8_status;
 					
@@ -1599,17 +1600,18 @@ uint8_t u8_GSM_GPRS_reception_Handler(uint32_t u32_tmo)
 			
 			else if(strcmp((char *)u8_GSM_Response_Identifier,"+QMTCONN") == 0)
 			{
-				u16_i =10;
+				u16_i =12;
 				u16_j = 0;
-				while(vu8_Gsm_Rx_Buffer[u16_pkt_num][u16_i] != ',')
+				while(vu8_Gsm_Rx_Buffer[u16_pkt_num][u16_i] != '\r')
 				{
 					MQT_CMD_RES[u16_j] = vu8_Gsm_Rx_Buffer[u16_pkt_num][u16_i];
 					u16_i++;
 					u16_j++;
 				}
 				MQT_CMD_RES[u16_j] = '\0';
-				if(strcmp((char *)MQT_CMD_RES,"0") == 0)
+				if(strcmp((char *)MQT_CMD_RES,"0,0") == 0)
 				{
+					MQTT_CONN_SUCCESS_FLAG = 1 ;
 					u8_status = MQTT_CONN_SUCCESS_FLAG;
 					return 	u8_status;
 					

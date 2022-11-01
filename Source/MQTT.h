@@ -74,6 +74,7 @@ uint8_t OTA_Acknowledgement(void);
 uint8_t Config_Acknowledgement(void);
 uint8_t Mqtt_SSL_Config(void);
 uint8_t Mqtt_SSL_Update_to_RAM(void);
+uint8_t mqtt_checking (void);
 void Provisioning_And_Registration(uint8_t * Certificate_Buffer);
 void Subscribe_to_Rails_Topic(void);
 uint8_t Rails_registration(void);

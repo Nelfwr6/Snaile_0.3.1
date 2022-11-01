@@ -94,7 +94,7 @@ uint8_t New_PEM_Cert_Buffer[2000];
 uint8_t New_Pvt_Cert_Buffer[2000];
 uint8_t certificateOwnershipToken[470];
 uint8_t PEM_CERT = 0,PVT_CERT =0;
- uint16_t length1 = 0,length2 = 0;
+uint16_t length1 = 0,length2 = 0;
 uint8_t time_buf[35];        //basil
 
 /*******************************************************************************
@@ -115,7 +115,7 @@ uint8_t time_buf[35];        //basil
 
 uint8_t u8_Wait_For_mqtt_Connection(void)
 {
-	uint8_t u8_Status = 0;
+	uint8_t u8_Status = 0 ;
 	uint8_t retry = 0;
 	char Connect_buff[50];
 	//u8_MQTT_PDP_Activate();
@@ -131,11 +131,21 @@ uint8_t u8_Wait_For_mqtt_Connection(void)
 		u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 		if(u8_Status == 0)
 		{
-			u8_Status = u8_GSM_GPRS_reception_Handler(10000);
-			if (u8_Status == 0)
+			u8_Status = u8_GSM_GPRS_reception_Handler(15000);
+			if(u8_Status == 0)
 			{
 				u8_Status = u8_GSM_GPRS_reception_Handler(15000);
+				if(u8_Status==0)
+				{
+					u8_Status = u8_GSM_GPRS_reception_Handler(5000);
+				}
+				if(u8_Status==0)
+				{
+					u8_Status = u8_GSM_GPRS_reception_Handler(5000);
+					u8_Status = u8_GSM_GPRS_reception_Handler(10000);
+				}
 			}
+			
 		}	
 				
 			
@@ -149,9 +159,12 @@ uint8_t u8_Wait_For_mqtt_Connection(void)
 		//v_delay_ms(10000);
 		u8_Status = u8_GSM_GPRS_reception_Handler(10000);
 		}
-		//if(u8_Status == GSM_SUCCESS)
+		if(u8_Status == 1)
+			u8_Status = GSM_SUCCESS;
 		
-		//return u8_Status;
+		else 	
+		     u8_Status = GSM_FAIL;
+		  return u8_Status;
 		/*
 	        v_uart_str_send("AT+QMTOPEN=1,\"a6bjeuc149fae-ats.iot.ca-central-1.amazonaws.com\",8883\r\n",GSM_GPRS_CHANNEL);
 		u8_Status = u8_GSM_GPRS_reception_Handler(15000);// max 120s needed
@@ -482,9 +495,9 @@ uint8_t MQTT_Reception_Handler(uint8_t * Subscribed_data)
 				Config_Acknowledgement();
 				Update_Configuration();
 				v_update_date_time();					//basil
-				Config_Acknowledgement();
+				//Config_Acknowledgement();
 				MQTT_RECV_FLAG = 0;
-				Publish_Handshake();				//basil
+				//Publish_Handshake();				//basil
 				
 			}
 	
@@ -655,7 +668,7 @@ uint8_t Config_Acknowledgement(void)
 		//clk_fun();
 		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-success\",\"timestamp\":\"%s\"}",(char*)clk_fun());
 		v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
-		MQTT_RECV_FLAG = 0;                      //basil
+		update_done_flag = 0;
 		
 	}
 	else
@@ -1185,5 +1198,17 @@ void Subscribe_to_Rails_Topic(void)
 	u8_Status = u8_GSM_GPRS_reception_Handler(5000);
 	v_delay_ms(1000);
 }
+
+
+
+
+/******************************************************************/
+
+
+
+
+
+
+
 
 	

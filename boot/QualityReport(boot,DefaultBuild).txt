@@ -1,14 +1,14 @@
 QualityReport
-Monday, October 31, 2022 1:50:53 PM
+Tuesday, November 1, 2022 8:18:21 PM
 
 ------ Start build(boot, DefaultBuild) ------
 ------ Build ended(Error:0, Warning:0)(boot, DefaultBuild) ------
 
 
 --- SHA1 hash value of output files ---
-C:\Users\EEE\Desktop\basil\git_files\Snaile_0.3.1\boot\DefaultBuild\boot.abs: 3e91bbcd0c46104b1430c886d6b2b7a872822998
-C:\Users\EEE\Desktop\basil\git_files\Snaile_0.3.1\boot\DefaultBuild\boot.hex: caf5204268a8f8ac152af096319a05e4d57aaab4
-C:\Users\EEE\Desktop\basil\git_files\Snaile_0.3.1\boot\DefaultBuild\boot0000_1fff.hex: 17cf7b46ed7ba898f8e81127d357b18139dfdd1b
+C:\Users\EEE\Desktop\basil\arju\New folder\from git work after restart\NEL_16_35_RFID_CC_V300_28b - test bin\boot\DefaultBuild\boot.abs: 3e91bbcd0c46104b1430c886d6b2b7a872822998
+C:\Users\EEE\Desktop\basil\arju\New folder\from git work after restart\NEL_16_35_RFID_CC_V300_28b - test bin\boot\DefaultBuild\boot.hex: caf5204268a8f8ac152af096319a05e4d57aaab4
+C:\Users\EEE\Desktop\basil\arju\New folder\from git work after restart\NEL_16_35_RFID_CC_V300_28b - test bin\boot\DefaultBuild\boot0000_1fff.hex: 17cf7b46ed7ba898f8e81127d357b18139dfdd1b
 
 
 --- System Information ---
@@ -36,13 +36,13 @@ C:\Users\EEE\Desktop\basil\git_files\Snaile_0.3.1\boot\DefaultBuild\boot0000_1ff
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *Memory Usage
  *Private Working Set
-  276 MB
+  255 MB
  *Number of GDI Objects
-  2634
+  2631
  *Number of USER Objects
-  1745
+  1710
  *Opened Files
-  43 editors, 43 files, 446 KB
+  44 editors, 44 files, 448 KB
 
 --- Build Tool Plug-in Information ---
 RH850 Build tool CC-RH Plug-in
@@ -171,7 +171,7 @@ Device Information Common Interface
   DeviceInformation.dll
 
 --- Main Project Information ---
-C:\Users\EEE\Desktop\basil\git_files\Snaile_0.3.1\NEL_16_35_RFID_CC_V300_22b.mtpj
+C:\Users\EEE\Desktop\basil\arju\New folder\from git work after restart\NEL_16_35_RFID_CC_V300_28b - test bin\NEL_16_35_RFID_CC_V300_22b.mtpj
 Microcontroller Information
  *R5F100FL
   *File Name: Version
@@ -217,7 +217,7 @@ Other Information
    Code library for RL78/G13 code generation plugin.
 
 --- Subproject Information(1/1) ---
-C:\Users\EEE\Desktop\basil\git_files\Snaile_0.3.1\boot\boot.mtsp
+C:\Users\EEE\Desktop\basil\arju\New folder\from git work after restart\NEL_16_35_RFID_CC_V300_28b - test bin\boot\boot.mtsp
 Microcontroller Information
  *R5F100FL
   *File Name: Version

@@ -560,7 +560,6 @@ void v_USB_RX_ISR(uint8_t u8_rx_data)
 void Update_Configuration(void)
 
 {
-   uint16_t u16_i = 0;          //basil
    char str1[512];
    char str2[50];
    char c[5];
@@ -585,9 +584,9 @@ void Update_Configuration(void)
 			    D_Config_Packet.Member.u8_current_month	= atoi(c);
 			    c[0]=str2[6];
 			    c[1]=str2[7];
-			    c[2]=str2[8];
-			    c[3]=str2[9];
-			    c[4]='\0';
+			    //c[2]=str2[8];
+			    //c[3]=str2[9];
+			    c[2]='\0';
 			   D_Config_Packet.Member.u16_current_year	 = atoi(c);
 			    u8_Data_Write_Flag = 1;
 			}
@@ -714,7 +713,7 @@ void Update_Configuration(void)
 		        u8_Data_Write_Flag = 1;
 			
 			}
-			//v_update_date_time();					//basil
+			
 			
 		      
 			
@@ -723,7 +722,7 @@ void Update_Configuration(void)
 				D_Config_Packet.Member.u32_Checksum_Value = u32_checksum_calculate(&D_Config_Packet.All[0], CONFIG_DF_DATA_SIZE - 4);
 				Write_Dconfig_Data_Flash();
 				update_done_flag = 1;
-				//v_update_date_time();					//basil
+				
 			}
 			
 	
@@ -803,7 +802,7 @@ char* clk_fun(void)
 {
         uint8_t time_buf[40];        //basil
         uint16_t u16_i = 0;          //basil
-	v_RTC_Get_Time();
+	//v_RTC_Get_Time();
 	//memset(time_buf, 0x00, sizeof(time_buf));
 	
         //sprintf((char *)time_buf, "AT+CCLK=\"20%02d-%02d-%02dT-%02d:%02d:%02d+%02d:%02d\"\r\n", u8_system_current_year, u8_system_current_month,u8_system_current_date, u8_system_current_hour, u8_system_current_min,u8_system_current_sec,D_Config_Packet.Member.u16_time_zone_hr,D_Config_Packet.Member.u16_time_zone_min);/*D_Config_Packet.Member.u8_timezone_sign);,/*///D_Config_Packet.Member.u16_time_zone_hr,D_Config_Packet.Member.u16_time_zone_min);

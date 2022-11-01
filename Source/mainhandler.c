@@ -82,7 +82,7 @@ uint32_t u32_RFID_New_Data_Location_Ptr = 0;
 uint8_t u8_GSM_Data_Format_Sel = 0;
 volatile uint8_t u8_Device_State = DEVICE_IDLE_TIME, u8_mqtt_status = 0x00, u8_reset_flag = 0;
 
-uint8_t u8_debug_mode_check = 0;
+uint8_t u8_debug_mode_check = 0, u8_count = 0;
 uint16_t u32_Current_Retry_Timeout  = 0;
 
 uint8_t u8_Wakeup_Hand_Shake_Stauts = DEACTIVATED;
@@ -874,6 +874,19 @@ void v_normal_mode_handler(void)
 				//u8_SSL_Connection_retry_count = 0;
 				
 			}
+			else if (u8_status == GSM_FAIL )// || u8_status == 0)
+			{
+				u8_count ++;
+				if(u8_count >8)
+				{
+					u8_count = 0;
+					u8_APP_State = APP_TCPIP_SEND_DATA;
+				}
+				
+				v_Gsm_Power_Down();
+				v_delay_ms(1000);
+				u8_APP_State = APP_GSM_POWER_ON;//APP_TCPIP_INIT;
+			}
 			
 			else
 			{
@@ -900,7 +913,9 @@ void v_normal_mode_handler(void)
 					u16_PDP_LED_Blink_Count = 1;
 					u16_DATA_LED_Blink_Count = 0;	
 					GSM_DATA_STATUS_LED = LED_OFF;
-					u8_APP_State = APP_TCPIP_INIT;
+					v_Gsm_Power_Down();
+					v_delay_ms(1000);
+					u8_APP_State = APP_GSM_POWER_ON;//APP_TCPIP_INIT;
 					//u8_System_Err |= SSL_CONNECTION_FAILED_ERR;
 				}
 		
