@@ -659,28 +659,28 @@ uint8_t Config_Acknowledgement(void)
 	if(update_done_flag == 1)
 	{
 		//clk_fun();
-		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-success\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-success\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		u8_i=strlen(uart_sendbuffer);
 
 		sprintf(publish_message,"AT+QMTPUBEX=1,1,1,0,\"rfid/from-device/%s\",%u\r\n",(char*)IMEI_num,u8_i);
 		v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
 		u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 		//clk_fun();
-		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-success\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-success\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 		update_done_flag = 0;
 		
 	}
 	else
 	{       //clk_fun();
-		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-received\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		u8_i=strlen(uart_sendbuffer);
 		
 		sprintf(publish_message,"AT+QMTPUBEX=1,1,1,0,\"rfid/from-device/%s\",%u\r\n",(char*)IMEI_num,u8_i);
 		v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
 		u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 		//clk_fun();
-		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-received\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 	
 	}
@@ -718,28 +718,28 @@ uint8_t OTA_Acknowledgement(void)
 	char uart_sendbuffer[200];
 	char publish_message[45];
 	//clk_fun();
-	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-received\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 	u8_i=strlen(uart_sendbuffer);
 	
 	sprintf(publish_message,"AT+QMTPUBEX=1,1,1,0,\"from-device/%s\",%u\r\n",IMEI_num,u8_i);
 	v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
 	u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 	//clk_fun();
-	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-received\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 	v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 	
 	
 	//if(OTA_update_done_flag == 1)
 	//{
 	//clk_fun();
-	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-success\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-success\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 	u8_i=strlen(uart_sendbuffer);
 	
 	sprintf(publish_message,"AT+QMTPUBEX=1,1,1,0,\"from-device/%s\",%u\r\n",IMEI_num,u8_i);
 	v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
 	u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 	//clk_fun();
-	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-success\",\"timestamp\":\"%s\"}",(char*)clk_fun());
+	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-success\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 	v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 	//}
 	
