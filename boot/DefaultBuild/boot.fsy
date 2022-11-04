@@ -1,4 +1,4 @@
-;RENESAS OPTIMIZING LINKER GENERATED FILE 2022.10.25
+;RENESAS OPTIMIZING LINKER GENERATED FILE 2022.11.03
 ;fsymbol = .constf, .text, .textf, .bss, .sbss, .data, .sdata, .RLIB, .SLIB
 
 ;SECTION NAME = .constf

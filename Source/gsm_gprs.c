@@ -1639,12 +1639,24 @@ uint8_t u8_GSM_GPRS_reception_Handler(uint32_t u32_tmo)
 				MQT_CMD_RES[u16_j] = '\0';
 				if(strcmp((char *)MQT_CMD_RES,"1,0") == 0)
 				{
+					
+					
 					u8_status = MQTT_PUB_SUCC_FLAG;
 					return 	u8_status;
 					
 				}
+				
+				else if(strcmp((char *)MQT_CMD_RES,"1,2") == 0)
+				{
+					
+				        MQTT_PUB_FAIL_FLAG = 1;
+					u8_status = GSM_FAIL;
+					return u8_status;
+				}
+				
 				else
 				{
+			       	        MQTT_PUB_FAIL_FLAG = 1;
 					u8_status = MQTT_PDP_FAIL_FLAG;
 					u8_status = GSM_FAIL;
 					return 	u8_status;

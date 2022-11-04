@@ -273,7 +273,7 @@ void Read_Cert_Data_Flash2(void)
 * Arguments    : None
 * Return Value : Error 
 ***********************************************************************************************************************/
-void v_GSM_Data_Format_Send(void)
+uint8_t v_GSM_Data_Format_Send(void)
 {
 	uint8_t u8_i = 0, u8_j = 0, u8_data[3], u8_temp ,u8_Status;
 	char publish_message[70],rfid_sendbuffer_2[512] = {0};
@@ -347,6 +347,7 @@ void v_GSM_Data_Format_Send(void)
 			v_uart_str_send(publish_message, GSM_GPRS_CHANNEL);
 			v_delay_ms(500);
 			v_uart_str_send(rfid_sendbuffer_2, GSM_GPRS_CHANNEL);
+			u8_Status = u8_GSM_GPRS_reception_Handler(8000);
 					
 		}
 	}
@@ -360,12 +361,13 @@ void v_GSM_Data_Format_Send(void)
 	
 	else if(u8_GSM_Data_Format_Sel == GSM_SEL_HANDSHAKE_DATA)
 	{
-		Publish_Handshake();
+		u8_Status = Publish_Handshake();
 
 		/*sprintf((char *)u8_GSM_Data_String, "?bcl=%02d&range=%02d",u16_battery_charge, u32_Network_Strength);
 		
 		v_uart_str_send((char *)u8_GSM_Data_String,GSM_GPRS_CHANNEL);*/
 	}
+	return u8_Status;
 }
 /*****************************************************************************************
 * Function name	 	: 	void v_usb_mode_handler(void)
@@ -923,8 +925,7 @@ void v_normal_mode_handler(void)
             	break;
 
         	case APP_TCPIP_SEND_DATA:
-		
-//			if(D_Config_Packet.Member.Registration_Flag == Not_Registered)
+//		if(D_Config_Packet.Member.Registration_Flag == Not_Registered)
 //			{
 //				;
 //			}
@@ -939,8 +940,16 @@ void v_normal_mode_handler(void)
 //			else
 //			{
 			//u8_GSM_Data_Format_Sel = GSM_SEL_HANDSHAKE_DATA;
-			v_GSM_Data_Format_Send();
-			u8_APP_State = APP_GSM_LOOP;
+			u8_status = v_GSM_Data_Format_Send();
+			if(u8_status == GSM_FAIL || MQTT_PUB_FAIL_FLAG == 1)
+			{
+				MQTT_PUB_FAIL_FLAG = 0;
+				v_Gsm_Power_Down();
+				v_delay_ms(1000);
+				u8_APP_State = APP_GSM_POWER_ON;
+				break;
+			}
+			
 //			}
 			//u32_Current_Retry_Timeout = 0;
 			u8_status = u8_GSM_GPRS_reception_Handler(1000);

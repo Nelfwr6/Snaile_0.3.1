@@ -83,7 +83,7 @@ volatile uint8_t MQT_CMD_RES[25];
 
 uint8_t MQTT_RECV_FLAG = 0; /*to understand recv condition*/
 uint8_t MQTT_OPEN_FLAG = 0,MQTT_STAT_FAIL = 0 , Reconnect_flag = 0;   
-uint8_t MQTT_PUB_SUCC_FLAG = 0,MQTT_SUB_SUCC_FLAG = 0,MQTT_CONN_SUCCESS_FLAG = 0,\
+uint8_t MQTT_PUB_SUCC_FLAG = 0,MQTT_SUB_SUCC_FLAG = 0,MQTT_CONN_SUCCESS_FLAG = 0,MQTT_PUB_FAIL_FLAG = 0,\
 MQTT_PDP_FAIL_FLAG = 0,MQT_PDP_RECONNECT_FLAG = 0,MQT_RECONNECT_FLAG = 0;
 uint8_t OTA_HTTP_URL[1500];	//to copy the OTA url from the OTA-update request
 uint8_t Parsed_Data[50];
@@ -269,26 +269,13 @@ uint8_t Publish_Handshake(void)
 	uint8_t u8_Status = 0,u8_i=0;
 	char uart_sendbuffer[230];
 	char publish_message[45];
-     /* uint8_t time_buf[35];        //basil
-        uint16_t u16_i = 0;          //basil
-	
-	sprintf((char *)time_buf, "AT+CCLK=\"%02d/%02d/%02d,%02d:%02d:%02d+00\"\r\n", u8_system_current_year, u8_system_current_month,u8_system_current_date, u8_system_current_hour, u8_system_current_min, \
-			u8_system_current_sec);
-			
-			for(u16_i=9;u16_i<29;u16_i++)
-			{
-			clock[u16_i-9]=(char *)time_buf[u16_i];
-			}
-	
-       // v_uart_str_send((char *)time_buf,GSM_GPRS_CHANNEL);*/
-       // clk_fun();
+    
 	sprintf(uart_sendbuffer,"{\"message\": \"handshake\",\"imei\": \"%s\",\"ccid\": \"%s\",\"firmware_version\": \"%s\",\"configuration_version\": \"%02d\",\"battery_level\": \"%02d\",\"cellular_range\": \"%02ld\",\"timestamp\": \"%s\"}",(char*)IMEI_num,(char*)CCID_num,(char*)D_Config_Packet.Member.u16_Version_id,D_Config_Packet.Member.u16_Config_id,u16_battery_charge,u32_Network_Strength,(char*)clk_fun());
 	u8_i=strlen(uart_sendbuffer);
 	
 	sprintf(publish_message,"AT+QMTPUBEX=1,1,1,0,\"rfid/from-device/%s\",%u\r\n",IMEI_num,u8_i);
 	v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
-	u8_Status = u8_GSM_GPRS_reception_Handler(15000);
-	//clk_fun();
+	
 	sprintf(uart_sendbuffer,"{\"message\": \"handshake\",\"imei\": \"%s\",\"ccid\": \"%s\",\"firmware_version\": \"%s\",\"configuration_version\": \"%02d\",\"battery_level\": \"%02d\",\"cellular_range\": \"%02ld\",\"timestamp\": \"%s\"}",(char*)IMEI_num,(char*)CCID_num,(char*)D_Config_Packet.Member.u16_Version_id,D_Config_Packet.Member.u16_Config_id,u16_battery_charge,u32_Network_Strength,clk_fun());
 	v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 	

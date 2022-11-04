@@ -181,6 +181,6 @@ void v_RFID_Handler(void);
 void v_usb_mode_handler(void);
 void v_normal_mode_handler(void);
 void v_rtc_check_polling(void);
-void v_GSM_Data_Format_Send(void);
+uint8_t v_GSM_Data_Format_Send(void);
 uint8_t u8_Check_Working_Time(void);
 #endif
