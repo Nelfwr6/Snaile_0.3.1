@@ -83,8 +83,8 @@ volatile uint8_t MQT_CMD_RES[25];
 
 uint8_t MQTT_RECV_FLAG = 0; /*to understand recv condition*/
 uint8_t MQTT_OPEN_FLAG = 0,MQTT_STAT_FAIL = 0 , Reconnect_flag = 0;   
-uint8_t MQTT_PUB_SUCC_FLAG = 0,MQTT_SUB_SUCC_FLAG = 0,MQTT_CONN_SUCCESS_FLAG = 0,MQTT_PUB_FAIL_FLAG = 0,\
-MQTT_PDP_FAIL_FLAG = 0,MQT_PDP_RECONNECT_FLAG = 0,MQT_RECONNECT_FLAG = 0;
+uint8_t MQTT_PUB_SUCC_FLAG = 0,MQTT_PUB_SUCC_FLAG1 = 0 ,MQTT_SUB_SUCC_FLAG = 0,MQTT_CONN_SUCCESS_FLAG = 0,MQTT_PUB_FAIL_FLAG = 0,\
+MQTT_PDP_FAIL_FLAG = 0,MQTT_PUB_RETRY_FLAG=0,MQT_PDP_RECONNECT_FLAG = 0,MQT_RECONNECT_FLAG = 0;
 uint8_t OTA_HTTP_URL[1500];	//to copy the OTA url from the OTA-update request
 uint8_t Parsed_Data[50];
 uint8_t u8_temp[25];
@@ -246,6 +246,7 @@ uint8_t Subscribe_to_AWS_Topics(void)
 	}
 	vu8_Recv_flag = 0;
 	first_time_provisioning = 0;
+	MQTT_PUB_SUCC_FLAG1 = 0;
 	return u8_Status;
 }
 /*******************************************************************************
@@ -348,7 +349,8 @@ uint8_t AWS_Thing_Provisioning(void)
 	D_Config_Packet.Member.u32_Checksum_Value = u32_checksum_calculate(&D_Config_Packet.All[0], CONFIG_DF_DATA_SIZE - 4);
 	u16_DConfig_DF_Write_Position = DCONFIG_DF_START_POSITION;
 //	Erase_Dconfig_Data_Flash();
-	Write_Dconfig_Data_Flash();	
+	Write_Dconfig_Data_Flash();
+	MQTT_PUB_SUCC_FLAG1 = 0;
 	return u8_Status;
 }
 /*******************************************************************************
@@ -481,8 +483,10 @@ uint8_t MQTT_Reception_Handler(uint8_t * Subscribed_data)
 			{
 				Config_Acknowledgement();
 				Update_Configuration();
+				v_delay_ms(1000);
 				v_update_date_time();					//basil
 				//Config_Acknowledgement();
+				v_delay_ms(1000);
 				MQTT_RECV_FLAG = 0;
 				//Publish_Handshake();				//basil
 				
@@ -656,6 +660,7 @@ uint8_t Config_Acknowledgement(void)
 		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-success\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 		update_done_flag = 0;
+		//MQTT_PUB_SUCC_FLAG1 = 0;
 		
 	}
 	else
@@ -669,6 +674,7 @@ uint8_t Config_Acknowledgement(void)
 		//clk_fun();
 		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
+		//MQTT_PUB_SUCC_FLAG1 = 0;
 	
 	}
 	
@@ -712,6 +718,7 @@ uint8_t OTA_Acknowledgement(void)
 	v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
 	u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 	//clk_fun();
+	//MQTT_PUB_SUCC_FLAG1 = 0;
 	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 	v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 	
@@ -726,6 +733,7 @@ uint8_t OTA_Acknowledgement(void)
 	v_uart_str_send(publish_message,GSM_GPRS_CHANNEL);
 	u8_Status = u8_GSM_GPRS_reception_Handler(15000);
 	//clk_fun();
+	//MQTT_PUB_SUCC_FLAG1 = 0;
 	sprintf(uart_sendbuffer,"{\"message\":\"ota-update-success\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 	v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
 	//}
@@ -1045,6 +1053,7 @@ void Provisioning_And_Registration(uint8_t * Certificate_Buffer)
 	u8_status = u8_GSM_GPRS_reception_Handler(10000);
 	v_delay_ms(1000);
 	u8_status = u8_GSM_GPRS_reception_Handler(5000);
+	MQTT_PUB_SUCC_FLAG1 = 0;
 	
 	if(cycle_count > 2)
 	{

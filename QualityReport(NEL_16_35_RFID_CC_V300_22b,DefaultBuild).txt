@@ -1,19 +1,201 @@
 QualityReport
-Thursday, November 3, 2022 5:29:03 PM
+Saturday, November 5, 2022 10:43:40 AM
 
 ------ Start build(NEL_16_35_RFID_CC_V300_22b, DefaultBuild) ------
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b>"C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\bin\rlink.exe" -subcommand=sub_mot.txt 
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\mainhandler.c -cpu=S2 -o DefaultBuild\mainhandler.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+Source\mainhandler.c(59):W0520171:Invalid type conversion
+Source\mainhandler.c(62):W0520171:Invalid type conversion
+Source\mainhandler.c(67):W0520171:Invalid type conversion
+Source\mainhandler.c(70):W0520171:Invalid type conversion
+Source\mainhandler.c(135):W0520171:Invalid type conversion
+Source\mainhandler.c(142):W0520171:Invalid type conversion
+Source\mainhandler.c(169):W0520513:A value of type "char __near *" cannot be assigned to an entity of type "uint16_t"
+Source\mainhandler.c(134):W0520177:Variable "j" was declared but never referenced
+Source\mainhandler.c(134):W0520177:Variable "k" was declared but never referenced
+Source\mainhandler.c(134):W0520177:Variable "i" was declared but never referenced
+Source\mainhandler.c(203):W0520177:Variable "u32_checksum" was declared but never referenced
+Source\mainhandler.c(246):W0520513:A value of type "long" cannot be assigned to an entity of type "uint8_t *"
+Source\mainhandler.c(246):W0520152:Conversion of nonzero integer to pointer
+Source\mainhandler.c(260):W0520513:A value of type "long" cannot be assigned to an entity of type "uint8_t *"
+Source\mainhandler.c(260):W0520152:Conversion of nonzero integer to pointer
+Source\mainhandler.c(287):W0520171:Invalid type conversion
+Source\mainhandler.c(614):W0520171:Invalid type conversion
+Source\mainhandler.c(645):W0520167:Argument of type "volatile uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+Source\mainhandler.c(678):W0520171:Invalid type conversion
+Source\mainhandler.c(743):W0520167:Argument of type "volatile uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+Source\mainhandler.c(470):W0520177:Variable "u16_i" was declared but never referenced
+Source\mainhandler.c(473):W0520177:Variable "uart_sendbuffer" was declared but never referenced
+Source\mainhandler.c(474):W0520177:Variable "publish_message" was declared but never referenced
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\rlink.exe -subcommand=DefaultBuild\NEL_16_35_RFID_CC_V300_22b.clnk
+W0561017:The evaluation period has expired
+W0561321:Entry symbol "_u8_comodo_buff_1" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_comodo_buff_2" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_comodo_buff_3" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_comodo_buff_4" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_comodo_buff_5" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_comodo_buff_6" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_comodo_buff_7" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snailecl_buff_1" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snailecl_buff_2" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snailecl_buff_3" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snailecl_buff_4" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snailecl_buff_5" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_1" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_2" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_3" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_4" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_5" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_6" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_7" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_key_buff_8" in "DefaultBuild\gsm_gprs.obj" conflicts
+W0561321:Entry symbol "_u8_CA1" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_CA2" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_CA3" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_CRT_buff_1" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_CRT_buff_2" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_CRT_buff_3" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_private_key_buff_1" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_private_key_buff_2" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_private_key_buff_3" in "DefaultBuild\MQTT.obj" conflicts
+W0561321:Entry symbol "_u8_snaile_private_key_buff_4" in "DefaultBuild\MQTT.obj" conflicts
+W0561184:Interrupt table address "0x2" of ".vect" is defined
+W0561017:The evaluation period has expired
+W0561017:The evaluation period has expired
+Renesas Optimizing Linker Completed
+C:\Users\EEE\Desktop\basil\New folder\nov_4>"C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\bin\rlink.exe" -subcommand=sub_mot.txt 
 Renesas Optimizing Linker W3.03.00  [01 Oct 2020]
    Copyright (C) 2011, 2020 Renesas Electronics Corporation
 W0561017:The evaluation period has expired
 Renesas Optimizing Linker Completed
------- Build ended(Error:0, Warning:1)(NEL_16_35_RFID_CC_V300_22b, DefaultBuild) ------
+------ Build ended(Error:0, Warning:58)(NEL_16_35_RFID_CC_V300_22b, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\NEL_16_35_RFID_CC_V300_22b.clnk :
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\r_main.obj
+-Input=DefaultBuild\r_systeminit.obj
+-Input=DefaultBuild\r_cg_cgc.obj
+-Input=DefaultBuild\r_cg_cgc_user.obj
+-Input=DefaultBuild\r_cg_port.obj
+-Input=DefaultBuild\r_cg_port_user.obj
+-Input=DefaultBuild\r_cg_intc.obj
+-Input=DefaultBuild\r_cg_intc_user.obj
+-Input=DefaultBuild\r_cg_serial.obj
+-Input=DefaultBuild\r_cg_serial_user.obj
+-Input=DefaultBuild\r_cg_adc.obj
+-Input=DefaultBuild\r_cg_adc_user.obj
+-Input=DefaultBuild\r_cg_timer.obj
+-Input=DefaultBuild\r_cg_timer_user.obj
+-Input=DefaultBuild\r_cg_rtc.obj
+-Input=DefaultBuild\r_cg_rtc_user.obj
+-Input=DefaultBuild\r_cg_it.obj
+-Input=DefaultBuild\r_cg_it_user.obj
+-Input=DefaultBuild\adc.obj
+-Input=DefaultBuild\Battery_measure.obj
+-Input=DefaultBuild\EEPROM.obj
+-Input=DefaultBuild\gsm_gprs.obj
+-Input=DefaultBuild\interval_timer.obj
+-Input=DefaultBuild\mainhandler.obj
+-Input=DefaultBuild\power_down.obj
+-Input=DefaultBuild\RFID.obj
+-Input=DefaultBuild\RTC.obj
+-Input=DefaultBuild\uart.obj
+-Input=DefaultBuild\USB_Config.obj
+-Input=DefaultBuild\ssl_certificates.obj
+-Input=DefaultBuild\ftable.obj
+-Input=DefaultBuild\MQTT.obj
+-Input=DefaultBuild\mqtt_ssl.obj
+-LIBrary=lib\pfdl.lib
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\lib\rl78cm4s99.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\lib\rl78cm4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=7FE00-7FFFF
+-USER_OPT_BYTE=EFF3E1
+-VECTN=2=ffff
+-VECTN=4=3008
+-VECTN=6=300C
+-VECTN=8=3010
+-VECTN=A=3014
+-VECTN=C=3018
+-VECTN=E=301C
+-VECTN=10=3020
+-VECTN=12=3024
+-VECTN=14=3028
+-VECTN=16=302C
+-VECTN=18=3030
+-VECTN=1A=3034
+-VECTN=1C=3038
+-VECTN=1E=303C
+-VECTN=20=3040
+-VECTN=22=3044
+-VECTN=24=3048
+-VECTN=26=304C
+-VECTN=28=3050
+-VECTN=2A=3054
+-VECTN=2C=3058
+-VECTN=2E=305C
+-VECTN=30=3060
+-VECTN=32=3064
+-VECTN=34=3068
+-VECTN=36=306C
+-VECTN=38=3070
+-VECTN=3A=3074
+-VECTN=3C=3078
+-VECTN=3E=307C
+-VECTN=40=3080
+-VECTN=42=3084
+-VECTN=44=3088
+-VECTN=46=308C
+-VECTN=48=3090
+-VECTN=4A=3094
+-VECTN=4C=3098
+-VECTN=4E=309C
+-VECTN=50=30A0
+-VECTN=52=30A4
+-VECTN=54=30A8
+-VECTN=56=30AC
+-VECTN=58=30B0
+-VECTN=5A=30B4
+-VECTN=5C=30B8
+-VECTN=5E=30BC
+-VECTN=60=30C0
+-VECTN=62=30C4
+-VECTN=7E=30C8
+-LISt=DefaultBuild\NEL_16_35_RFID_CC_V300_22b.map
+-SHow=ALL
+-AUTO_SECTION_LAYOUT
+-STARt=.const,.text,.RLIB,.SLIB,.textf,.constf,.data,.sdata,PFDL_COD/03200,.dataR,.bss/F8400,.sdataR,.sbss/FFE80
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-NOLOgo
+-end
+-Input=DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF
+-OUtput=DefaultBuild\NEL_16_35_RFID_CC_V300_22b.hex
+-FOrm=Hexadecimal
+-NOMessage
+-end
+-Input=DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF
+-OUtput=DefaultBuild\flash3000_ffff.hex=3000-11FFF
+-FOrm=Hexadecimal
+-NOMessage
+-exit
 
 
 --- SHA1 hash value of output files ---
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs: 9eab9518f8a8a8b3c79c5b20d6156e18d42a0f27
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.hex: 00330aad82c94ebdddb63d1542feef6028078a90
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\DefaultBuild\flash3000_ffff.hex: 45a07192c17ac3314d17af5177ca05bd3b49870b
+C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs: 2536e64557da545f23b4ad72bf1862f1954789a1
+C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.hex: d5852ec999d27bf08bb3f905fa613faad74b14ad
+C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\flash3000_ffff.hex: 64c4ae11a2268725923dd108dce107366d71e91f
 
 
 --- System Information ---
@@ -41,13 +223,13 @@ C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\DefaultBuild\fl
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *Memory Usage
  *Private Working Set
-  248 MB
+  299 MB
  *Number of GDI Objects
-  2664
+  2657
  *Number of USER Objects
-  1723
+  1806
  *Opened Files
-  44 editors, 44 files, 449 KB
+  45 editors, 45 files, 728 KB
 
 --- Build Tool Plug-in Information ---
 RH850 Build tool CC-RH Plug-in
@@ -176,7 +358,7 @@ Device Information Common Interface
   DeviceInformation.dll
 
 --- Main Project Information ---
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\NEL_16_35_RFID_CC_V300_22b.mtpj
+C:\Users\EEE\Desktop\basil\New folder\nov_4\NEL_16_35_RFID_CC_V300_22b.mtpj
 Microcontroller Information
  *R5F100FL
   *File Name: Version
@@ -199,7 +381,7 @@ Build Tool Information
  
 
 Debug Tool Information
- *RL78 E1(Serial)
+ *RL78 E2 Lite
   Debugger Library V8.07.00.05 [01 Dec 2021]
   
 
@@ -222,7 +404,7 @@ Other Information
    Code library for RL78/G13 code generation plugin.
 
 --- Subproject Information(1/1) ---
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\boot\boot.mtsp
+C:\Users\EEE\Desktop\basil\New folder\nov_4\boot\boot.mtsp
 Microcontroller Information
  *R5F100FL
   *File Name: Version

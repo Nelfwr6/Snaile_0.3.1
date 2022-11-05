@@ -1,14 +1,14 @@
 QualityReport
-Thursday, November 3, 2022 5:29:04 PM
+Saturday, November 5, 2022 10:43:40 AM
 
 ------ Start build(boot, DefaultBuild) ------
 ------ Build ended(Error:0, Warning:0)(boot, DefaultBuild) ------
 
 
 --- SHA1 hash value of output files ---
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.abs: 7bd38737f79f4be2622083aeca0ef4569ed88185
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot.hex: caf5204268a8f8ac152af096319a05e4d57aaab4
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBuild\boot0000_1fff.hex: 17cf7b46ed7ba898f8e81127d357b18139dfdd1b
+C:\Users\EEE\Desktop\basil\New folder\nov_4\boot\DefaultBuild\boot.abs: 7bd38737f79f4be2622083aeca0ef4569ed88185
+C:\Users\EEE\Desktop\basil\New folder\nov_4\boot\DefaultBuild\boot.hex: caf5204268a8f8ac152af096319a05e4d57aaab4
+C:\Users\EEE\Desktop\basil\New folder\nov_4\boot\DefaultBuild\boot0000_1fff.hex: 17cf7b46ed7ba898f8e81127d357b18139dfdd1b
 
 
 --- System Information ---
@@ -36,13 +36,13 @@ C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\boot\DefaultBui
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *Memory Usage
  *Private Working Set
-  248 MB
+  299 MB
  *Number of GDI Objects
-  2664
+  2657
  *Number of USER Objects
-  1723
+  1806
  *Opened Files
-  44 editors, 44 files, 449 KB
+  45 editors, 45 files, 728 KB
 
 --- Build Tool Plug-in Information ---
 RH850 Build tool CC-RH Plug-in
@@ -171,7 +171,7 @@ Device Information Common Interface
   DeviceInformation.dll
 
 --- Main Project Information ---
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\NEL_16_35_RFID_CC_V300_22b.mtpj
+C:\Users\EEE\Desktop\basil\New folder\nov_4\NEL_16_35_RFID_CC_V300_22b.mtpj
 Microcontroller Information
  *R5F100FL
   *File Name: Version
@@ -194,7 +194,7 @@ Build Tool Information
  
 
 Debug Tool Information
- *RL78 E1(Serial)
+ *RL78 E2 Lite
   Debugger Library V8.07.00.05 [01 Dec 2021]
   
 
@@ -217,7 +217,7 @@ Other Information
    Code library for RL78/G13 code generation plugin.
 
 --- Subproject Information(1/1) ---
-C:\Users\EEE\Desktop\basil\New folder\NEL_16_35_RFID_CC_V300_22b\boot\boot.mtsp
+C:\Users\EEE\Desktop\basil\New folder\nov_4\boot\boot.mtsp
 Microcontroller Information
  *R5F100FL
   *File Name: Version

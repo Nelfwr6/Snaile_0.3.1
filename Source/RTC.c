@@ -101,8 +101,11 @@ void v_update_date_time(void)
     	u8_system_current_min = BCDToDecimal(rtc_System_Time.min);
 	u8_system_current_sec = BCDToDecimal(rtc_System_Time.sec);
     	u8_system_current_date = BCDToDecimal(rtc_System_Time.day);
+	u8_system_current_year = BCDToDecimal(rtc_System_Time.year);
 	u8_system_current_month = BCDToDecimal(rtc_System_Time.month);
-    	u8_system_current_year = BCDToDecimal(rtc_System_Time.year);
+	
+	
+    
 	
 }
 

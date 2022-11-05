@@ -721,7 +721,7 @@ void Update_Configuration(void)
 			{
 				D_Config_Packet.Member.u32_Checksum_Value = u32_checksum_calculate(&D_Config_Packet.All[0], CONFIG_DF_DATA_SIZE - 4);
 				Write_Dconfig_Data_Flash();
-				update_done_flag = 1;
+				//update_done_flag = 1;
 				
 			}
 			

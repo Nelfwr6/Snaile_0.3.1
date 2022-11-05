@@ -1640,11 +1640,34 @@ uint8_t u8_GSM_GPRS_reception_Handler(uint32_t u32_tmo)
 				if(strcmp((char *)MQT_CMD_RES,"1,0") == 0)
 				{
 					
-					
+					MQTT_PUB_SUCC_FLAG1 = 1;
 					u8_status = MQTT_PUB_SUCC_FLAG;
 					return 	u8_status;
 					
 				}
+				
+				else if(strcmp((char *)MQT_CMD_RES,"1,1,1") == 0)
+				{
+					
+				        MQTT_PUB_RETRY_FLAG = 1;
+					u8_status = MQTT_PUB_RETRY_FLAG;
+					return u8_status;
+				}
+				else if(strcmp((char *)MQT_CMD_RES,"1,1,2") == 0)
+				{
+					
+				        MQTT_PUB_RETRY_FLAG = 2;
+					u8_status = MQTT_PUB_RETRY_FLAG;
+					return u8_status;
+				}
+				else if(strcmp((char *)MQT_CMD_RES,"1,1,3") == 0)
+				{
+					
+				        MQTT_PUB_FAIL_FLAG = 1;
+					u8_status = GSM_FAIL;
+					return u8_status;
+				}
+				
 				
 				else if(strcmp((char *)MQT_CMD_RES,"1,2") == 0)
 				{
@@ -1653,7 +1676,6 @@ uint8_t u8_GSM_GPRS_reception_Handler(uint32_t u32_tmo)
 					u8_status = GSM_FAIL;
 					return u8_status;
 				}
-				
 				else
 				{
 			       	        MQTT_PUB_FAIL_FLAG = 1;
