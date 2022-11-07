@@ -127,7 +127,7 @@
 
 ///////////////////////////////////////////////
 
-#define DEFAULT_SCANNING_TIME 15     //basil (by default it is 3)
+#define DEFAULT_SCANNING_TIME 3     //basil (by default it is 3)
 
 #define DEVICE_START_TIME 1
 #define DEVICE_WORKING_TIME 2

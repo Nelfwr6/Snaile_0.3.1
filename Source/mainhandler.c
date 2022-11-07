@@ -149,7 +149,7 @@ void Reload_configuration(void)
 				
 				D_Config_Packet.Member.u8_current_time_hr	= 9;
 				D_Config_Packet.Member.u8_current_time_min	= 27;
-				D_Config_Packet.Member.u8_current_time_sec	= 00;
+				D_Config_Packet.Member.u8_current_time_sec	= 11;
 				
 				D_Config_Packet.Member.u8_current_date		= 01;
 				D_Config_Packet.Member.u8_current_month		= 01;
@@ -997,6 +997,7 @@ void v_normal_mode_handler(void)
 					u8_APP_State = APP_GSM_LOOP;
 				}
 			}
+			
 			u8_mqtt_status = 0x00;
 			u8_APP_State = APP_GSM_LOOP;
 			
@@ -1005,6 +1006,7 @@ void v_normal_mode_handler(void)
 			
 		
 		case APP_GSM_LOOP:
+//		D_Config_Packet.Member.config_update_flag = 0;
 		u8_status = u8_GSM_GPRS_reception_Handler(30000);
 //		MQTT_Reception_Handler(Subscribed_data);
 		

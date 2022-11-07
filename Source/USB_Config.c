@@ -711,7 +711,7 @@ void Update_Configuration(void)
 			c[2]='\0';
 			D_Config_Packet.Member.u16_time_zone_min = atoi(c);
 		        u8_Data_Write_Flag = 1;
-			
+			D_Config_Packet.Member.config_update_flag = 1;
 			}
 			
 			
@@ -721,10 +721,10 @@ void Update_Configuration(void)
 			{
 				D_Config_Packet.Member.u32_Checksum_Value = u32_checksum_calculate(&D_Config_Packet.All[0], CONFIG_DF_DATA_SIZE - 4);
 				Write_Dconfig_Data_Flash();
-				//update_done_flag = 1;
+				update_done_flag = 1;
 				
 			}
-			
+		      	
 	
 }
 	

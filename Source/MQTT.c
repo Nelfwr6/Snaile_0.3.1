@@ -484,10 +484,13 @@ uint8_t MQTT_Reception_Handler(uint8_t * Subscribed_data)
 				Config_Acknowledgement();
 				Update_Configuration();
 				v_delay_ms(1000);
-				v_update_date_time();					//basil
+				v_update_date_time();	
+				R_RTC_Set_ConstPeriodInterruptOff();
+			        R_RTC_Stop();
+				Reset_MCU();//basil
 				//Config_Acknowledgement();
-				v_delay_ms(1000);
-				MQTT_RECV_FLAG = 0;
+				//v_delay_ms(1000);
+				//MQTT_RECV_FLAG = 0;
 				//Publish_Handshake();				//basil
 				
 			}
@@ -674,7 +677,7 @@ uint8_t Config_Acknowledgement(void)
 		//clk_fun();
 		sprintf(uart_sendbuffer,"{\"message\":\"configuration-update-received\",\"imei\":\"%s\",\"timestamp\":\"%s\"}",(char*)IMEI_num,(char*)clk_fun());
 		v_uart_str_send(uart_sendbuffer,GSM_GPRS_CHANNEL);
-		//MQTT_PUB_SUCC_FLAG1 = 0;
+		update_done_flag = 0;
 	
 	}
 	

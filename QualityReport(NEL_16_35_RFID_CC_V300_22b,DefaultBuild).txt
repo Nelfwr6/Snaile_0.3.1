@@ -1,7 +1,107 @@
 QualityReport
-Saturday, November 5, 2022 10:43:40 AM
+Monday, November 7, 2022 10:56:29 AM
 
 ------ Start build(NEL_16_35_RFID_CC_V300_22b, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe r_main.c -cpu=S2 -o DefaultBuild\r_main.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe r_cg_rtc_user.c -cpu=S2 -o DefaultBuild\r_cg_rtc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe r_cg_it_user.c -cpu=S2 -o DefaultBuild\r_cg_it_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\USB_Config.c -cpu=S2 -o DefaultBuild\USB_Config.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+r_main.c(99):W0520167:Argument of type "volatile uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+r_main.c(108):W0520042:Operand types are incompatible ("uint16_t __near" and "char __near *")
+r_main.c(117):W0520513:A value of type "char __near *" cannot be assigned to an entity of type "uint16_t"
+r_main.c(128):W0520167:Argument of type "volatile uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\EEPROM.c -cpu=S2 -o DefaultBuild\EEPROM.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe r_cg_intc_user.c -cpu=S2 -o DefaultBuild\r_cg_intc_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+Source\EEPROM.c(120):W0520177:Variable "CS" was declared but never referenced
+Source\EEPROM.c(120):W0520177:Variable "temp" was declared but never referenced
+Source\EEPROM.c(226):W0520177:Variable "j" was declared but never referenced
+Source\EEPROM.c(226):W0520177:Variable "u8_checksum" was declared but never referenced
+Source\EEPROM.c(226):W0520177:Variable "temp" was declared but never referenced
+Source\EEPROM.c(228):W0520177:Variable "i" was declared but never referenced
+Source\EEPROM.c(309):W0520513:A value of type "uint8_t __near (*)[2000]" cannot be assigned to an entity of type "pfdl_u08 __near *"
+Source\EEPROM.c(348):W0520513:A value of type "uint8_t __near (*)[2000]" cannot be assigned to an entity of type "pfdl_u08 __near *"
+Source\EEPROM.c(286):W0520177:Variable "j" was declared but never referenced
+Source\EEPROM.c(286):W0520177:Variable "u8_checksum" was declared but never referenced
+Source\EEPROM.c(286):W0520177:Variable "temp" was declared but never referenced
+Source\EEPROM.c(288):W0520177:Variable "i" was declared but never referenced
+Source\USB_Config.c(566):W0520144:A value of type "uint8_t __near (*)[400]" cannot be used to initialize an entity of type "char *__near"
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\gsm_gprs.c -cpu=S2 -o DefaultBuild\gsm_gprs.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+Source\USB_Config.c(739):W0520144:A value of type "uint8_t __near (*)[400]" cannot be used to initialize an entity of type "char *__near"
+Source\USB_Config.c(812):W0520513:A value of type "char *" cannot be assigned to an entity of type "uint8_t"
+Source\USB_Config.c(814):W0520120:Return value type does not match the function type
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\MQTT.c -cpu=S2 -o DefaultBuild\MQTT.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+Source\gsm_gprs.c(203):W0520167:Argument of type "uint8_t *__near" is incompatible with parameter of type "const char __near *__near"
+Source\gsm_gprs.c(205):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const char *__near"
+Source\gsm_gprs.c(209):W0520167:Argument of type "uint8_t *__near" is incompatible with parameter of type "const char *__near"
+Source\gsm_gprs.c(440):W0520940:Missing return statement at end of non-void function "u8_Gsm_Wait_For_AT_response"
+Source\gsm_gprs.c(461):W0520177:Variable "u16_pkt_num" was declared but never referenced
+Source\gsm_gprs.c(878):W0520177:Variable "u8_Status" was declared but never referenced
+Source\gsm_gprs.c(879):W0520177:Variable "u16_i" was declared but never referenced
+Source\gsm_gprs.c(946):W0520550:Variable "u8_Status" was set but never used
+Source\gsm_gprs.c(1043):W0520177:Variable "u8_i" was declared but never referenced
+Source\gsm_gprs.c(1150):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1151):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1152):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1153):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1154):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1155):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1156):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1166):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1167):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1168):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1169):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1170):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1180):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1181):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1182):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1183):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1184):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1185):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1186):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1187):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\gsm_gprs.c(1295):W0520167:Argument of type "volatile uint8_t __near *" is incompatible with parameter of type "void __near *__near"
+Source\gsm_gprs.c(1392):W0520177:Variable "i" was declared but never referenced
+Source\gsm_gprs.c(1472):W0520177:Variable "u8_tmp" was declared but never referenced
+Source\MQTT.c(119):W0520177:Variable "retry" was declared but never referenced
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\interval_timer.c -cpu=S2 -o DefaultBuild\interval_timer.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
+Source\MQTT.c(206):W0520177:Variable "u8_i" was declared but never referenced
+Source\MQTT.c(209):W0520177:Variable "Dummy_Publish_data" was declared but never referenced
+Source\MQTT.c(326):W0520177:Variable "publish_message" was declared but never referenced
+Source\MQTT.c(433):W0520144:A value of type "uint8_t *__near *" cannot be used to initialize an entity of type "char *__near"
+Source\MQTT.c(450):W0520167:Argument of type "uint8_t *__near" is incompatible with parameter of type "const char __near *__near"
+Source\MQTT.c(519):W0520167:Argument of type "volatile uint8_t __near *" is incompatible with parameter of type "uint8_t *const __near"
+Source\MQTT.c(582):W0520167:Argument of type "uint8_t *__near" is incompatible with parameter of type "const char __near *__near"
+Source\MQTT.c(591):W0520167:Argument of type "uint8_t *__near" is incompatible with parameter of type "const char __near *__near"
+Source\MQTT.c(600):W0520940:Missing return statement at end of non-void function "MQTT_Reception_Handler"
+Source\MQTT.c(791):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(792):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(793):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(805):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(806):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(807):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(817):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(818):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(819):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(820):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(945):W0520167:Argument of type "uint8_t *__near" is incompatible with parameter of type "const char __near *__near"
+Source\MQTT.c(962):W0520513:A value of type "char __far *" cannot be assigned to an entity of type "char *"
+Source\MQTT.c(970):W0520513:A value of type "char __far *" cannot be assigned to an entity of type "char *"
+Source\MQTT.c(975):W0520513:A value of type "char __far *" cannot be assigned to an entity of type "char *"
+Source\MQTT.c(977):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const char __near *__near"
+Source\MQTT.c(1000):W0520513:A value of type "char __far *" cannot be assigned to an entity of type "char *"
+Source\MQTT.c(1009):W0520513:A value of type "char __far *" cannot be assigned to an entity of type "char *"
+Source\MQTT.c(1016):W0520513:A value of type "char __far *" cannot be assigned to an entity of type "char *"
+Source\MQTT.c(1019):W0520167:Argument of type "uint8_t __near *" is incompatible with parameter of type "const char __near *__near"
+Source\MQTT.c(932):W0520177:Variable "u8_SSL_String3" was declared but never referenced
+Source\MQTT.c(934):W0520550:Variable "Size_Pem" was set but never used
+Source\MQTT.c(934):W0520550:Variable "Size_Pvt" was set but never used
+Source\MQTT.c(935):W0520550:Variable "u8_status" was set but never used
+Source\MQTT.c(1124):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(1125):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(1126):W0520167:Argument of type "const uint8_t __near *" is incompatible with parameter of type "uint8_t *__near"
+Source\MQTT.c(1087):W0520177:Variable "publish_message" was declared but never referenced
+Source\MQTT.c(1191):W0520550:Variable "u8_Status" was set but never used
+Source\MQTT.c(1191):W0520177:Variable "u8_i" was declared but never referenced
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.10.00\Bin\ccrl.exe Source\mainhandler.c -cpu=S2 -o DefaultBuild\mainhandler.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F100FL.DVF" -g -Onothing -I lib -I Source -I . -c -msg_lang=english
 Source\mainhandler.c(59):W0520171:Invalid type conversion
 Source\mainhandler.c(62):W0520171:Invalid type conversion
@@ -67,7 +167,7 @@ Renesas Optimizing Linker W3.03.00  [01 Oct 2020]
    Copyright (C) 2011, 2020 Renesas Electronics Corporation
 W0561017:The evaluation period has expired
 Renesas Optimizing Linker Completed
------- Build ended(Error:0, Warning:58)(NEL_16_35_RFID_CC_V300_22b, DefaultBuild) ------
+------ Build ended(Error:0, Warning:149)(NEL_16_35_RFID_CC_V300_22b, DefaultBuild) ------
 
 --- CommandFile 1 ---
 DefaultBuild\NEL_16_35_RFID_CC_V300_22b.clnk :
@@ -193,9 +293,9 @@ DefaultBuild\NEL_16_35_RFID_CC_V300_22b.clnk :
 
 
 --- SHA1 hash value of output files ---
-C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs: 2536e64557da545f23b4ad72bf1862f1954789a1
-C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.hex: d5852ec999d27bf08bb3f905fa613faad74b14ad
-C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\flash3000_ffff.hex: 64c4ae11a2268725923dd108dce107366d71e91f
+C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.abs: b75fbd316cac18d3a9edea645610bb68b7edfa43
+C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\NEL_16_35_RFID_CC_V300_22b.hex: f2711fb91e9b08dff9bba6a3f6bd5278132f3a78
+C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\flash3000_ffff.hex: 3141cbba1d01614c0848c3261eba957a1fb6cc4d
 
 
 --- System Information ---
@@ -223,13 +323,13 @@ C:\Users\EEE\Desktop\basil\New folder\nov_4\DefaultBuild\flash3000_ffff.hex: 64c
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *Memory Usage
  *Private Working Set
-  299 MB
+  302 MB
  *Number of GDI Objects
-  2657
+  2675
  *Number of USER Objects
-  1806
+  1801
  *Opened Files
-  45 editors, 45 files, 728 KB
+  45 editors, 45 files, 457 KB
 
 --- Build Tool Plug-in Information ---
 RH850 Build tool CC-RH Plug-in
@@ -381,7 +481,7 @@ Build Tool Information
  
 
 Debug Tool Information
- *RL78 E2 Lite
+ *RL78 E1(Serial)
   Debugger Library V8.07.00.05 [01 Dec 2021]
   
 

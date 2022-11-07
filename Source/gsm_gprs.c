@@ -955,7 +955,7 @@ void GSM_Initial_Configuration(void)
 	
 	
 	
-	RTC_Update_From_GSM();			//basil
+	//RTC_Update_From_GSM();			//basil
 	
 	v_uart_str_send("AT+QICSGP=1,1,\"postm2m.lu\",\"\",\"\",1\r\n",GSM_GPRS_CHANNEL); 
 	//u8_Status = u8_GSM_GPRS_reception_Handler(1000);

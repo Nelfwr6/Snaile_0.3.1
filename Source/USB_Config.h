@@ -118,6 +118,7 @@ typedef union
 		uint8_t u8_dummy1[6];
 		uint8_t Registration_Flag;
 		uint8_t Provinsion_Flag;
+		uint8_t config_update_flag;
 		
 		//total bytes 1024 - (4+12+8+6+2+4+128+18+8)	
 		uint8_t u8_Dummy_Byte[CONFIG_DF_DATA_SIZE - 199];

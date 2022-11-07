@@ -107,6 +107,13 @@ void main(void)
     Reload_configuration();
     if(D_Config_Packet.Member.u16_Version_id!=VERSION)
     {
+	    if (D_Config_Packet.Member.config_update_flag == 1)
+	{
+		
+		v_update_date_time();
+		D_Config_Packet.Member.config_update_flag = 0;
+		//Write_Dconfig_Data_Flash();
+	}
 	    D_Config_Packet.Member.u16_Version_id=VERSION;
 	    D_Config_Packet.Member.u32_Checksum_Value = u32_checksum_calculate(&D_Config_Packet.All[0], CONFIG_DF_DATA_SIZE - 4);
 	    u16_DConfig_DF_Write_Position = DCONFIG_DF_START_POSITION;
@@ -119,7 +126,7 @@ void main(void)
     R_UART1_Create();
     R_UART1_Start();
     R_UART1_Receive(&gsm_rx_data,1);
-    RTC_Update_From_GSM();           
+  //  RTC_Update_From_GSM();           
     if(D_Config_Packet.Member.Provinsion_Flag == NOT_PROVISIONED)
     {
     	GSM_Initial_Configuration(); // this function provision the device and go to sleep mode
@@ -128,7 +135,9 @@ void main(void)
     {
 	v_Gsm_Hardware_Init();
 	u8_Gsm_Wait_For_AT_response(14000);
-	RTC_Update_From_GSM();                  
+	//RTC_Update_From_GSM();  
+	
+
 	v_Gsm_Power_Down();
     }
     ///////RTC/////////////

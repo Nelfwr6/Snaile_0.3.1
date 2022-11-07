@@ -1,5 +1,5 @@
 QualityReport
-Saturday, November 5, 2022 10:43:40 AM
+Monday, November 7, 2022 10:56:29 AM
 
 ------ Start build(boot, DefaultBuild) ------
 ------ Build ended(Error:0, Warning:0)(boot, DefaultBuild) ------
@@ -36,13 +36,13 @@ C:\Users\EEE\Desktop\basil\New folder\nov_4\boot\DefaultBuild\boot0000_1fff.hex:
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *Memory Usage
  *Private Working Set
-  299 MB
+  302 MB
  *Number of GDI Objects
-  2657
+  2675
  *Number of USER Objects
-  1806
+  1801
  *Opened Files
-  45 editors, 45 files, 728 KB
+  45 editors, 45 files, 457 KB
 
 --- Build Tool Plug-in Information ---
 RH850 Build tool CC-RH Plug-in
@@ -194,7 +194,7 @@ Build Tool Information
  
 
 Debug Tool Information
- *RL78 E2 Lite
+ *RL78 E1(Serial)
   Debugger Library V8.07.00.05 [01 Dec 2021]
   
 
